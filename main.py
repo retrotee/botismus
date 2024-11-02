@@ -97,12 +97,12 @@ Verfügbare Aktionen:
 10. move_channel: {{"channel": "channel_name", "category": "category_name"}}
 11. delete_channel: {{"name": "channel_name"}}
 12. list_commands: {{"show": "all"}}
-13. troll_channel: {"channel": "channel_name", "messages": ["nachricht1", "nachricht2", ...]}
-14. channel_sequence: {
+'13. troll_channel: {{"channel": "channel_name", "messages": ["nachricht1", "nachricht2", ...]}}'
+14. channel_sequence: {{
     "channel": "channel_name", 
     "messages": ["nachricht1", "nachricht2", ...],
     "delay": 1.0  # Optional: Verzögerung zwischen Nachrichten
-}
+}}
 
 Beispiele für mehrere Aktionen:
 "Erstelle einen Textkanal namens news in der Kategorie Info und sende eine Willkommensnachricht":
@@ -548,6 +548,7 @@ async def on_message(message):
                 return
 
             response = await get_ai_response(user_input, message.guild)
+            logging.info(f"AI Response: {response}")  # Log the raw AI response
             actions = parse_ai_response(response)
             
             results = []
@@ -558,7 +559,10 @@ async def on_message(message):
             for i, action_data in enumerate(actions, 1):
                 action = action_data["action"]
                 params = action_data["params"]
-                
+
+                # Log the action and params for debugging
+                logging.info(f"Action {i}: {action}, Params: {params}")
+
                 # Wenn die Aktion eine Nachricht ist, sende sie in den aktuellen Kanal
                 if action == "send_message" and not params.get("channel"):
                     params["channel"] = message.channel.name
@@ -612,6 +616,8 @@ async def on_message(message):
 
 async def handle_action(message, action, params):
     try:
+        logging.info(f"Handling action: {action} with params: {params}")  # Added logging for debugging
+
         if action == "create_channel":
             category = params.get("category", None)
             channel = await ServerManager.create_channel(
@@ -640,7 +646,6 @@ async def handle_action(message, action, params):
             return f"✅ Beschreibung von {channel.mention} wurde aktualisiert!"
 
         elif action == "create_command":
-            # Wenn es ein Echo-Command ist, stelle sicher, dass {args} verwendet wird
             if params["name"].lower() == "echo":
                 params["response"] = "{args}"
             
@@ -655,17 +660,15 @@ async def handle_action(message, action, params):
                 return "❌ Command konnte nicht erstellt werden."
 
         elif action == "send_message":
-            try:
-                await ServerManager.send_message(
-                    message.guild,
-                    params["channel"],
-                    params["message"]
-                )
-                return f"✅ Nachricht wurde in #{params['channel']} gesendet!"
-            except ValueError as e:
-                return str(e)
-            except Exception as e:
-                return f"❌ Fehler beim Senden der Nachricht: {str(e)}"
+            if "channel" not in params or "message" not in params:
+                raise ValueError("Missing required parameters for send_message action.")
+            logging.info(f"Sending message to channel: {params['channel']} with content: {params['message']}")
+            await ServerManager.send_message(
+                message.guild,
+                params["channel"],
+                params["message"]
+            )
+            return f"✅ Nachricht wurde in #{params['channel']} gesendet!"
 
         elif action == "create_category":
             category = await ServerManager.create_category(
