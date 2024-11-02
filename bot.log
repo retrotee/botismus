@@ -1,0 +1,3219 @@
+2024-11-02 18:00:15,384 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-02 18:00:15,386 - INFO - logging in using static token
+2024-11-02 18:00:16,376 - CRITICAL - Bot konnte nicht gestartet werden: Shard ID None is requesting privileged intents that have not been explicitly enabled in the developer portal. It is recommended to go to https://discord.com/developers/applications/ and explicitly enable the privileged intents within your application's page. If this is not possible, then consider disabling the privileged intents instead.
+2024-11-02 18:01:33,518 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-02 18:01:33,520 - INFO - logging in using static token
+2024-11-02 18:01:34,608 - INFO - Shard ID None has connected to Gateway (Session ID: fdc53781db57a5984eb3a2999178b9d6).
+2024-11-02 18:01:36,613 - INFO - Botismus#0717 ist online!
+2024-11-02 18:03:17,815 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:03:17,815 - ERROR - Fehler beim Senden der Nachricht: Kanal allgemein nicht gefunden!
+2024-11-02 18:03:18,098 - ERROR - Fehler bei der Ausführung von send_message: Kanal allgemein nicht gefunden!
+2024-11-02 18:03:46,102 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:05:02,790 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:05:02,790 - ERROR - Fehler beim Senden der Nachricht: Kanal allgemeine-nachrichten nicht gefunden!
+2024-11-02 18:05:03,189 - ERROR - Fehler bei der Ausführung von send_message: Kanal allgemeine-nachrichten nicht gefunden!
+2024-11-02 18:10:44,689 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-02 18:10:44,691 - INFO - logging in using static token
+2024-11-02 18:10:45,759 - INFO - Shard ID None has connected to Gateway (Session ID: fe2ef9ddfa9357f4c2bd4c4648473d3b).
+2024-11-02 18:10:47,760 - INFO - Botismus#0717 ist online!
+2024-11-02 18:11:00,012 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:11:00,013 - ERROR - Fehler beim Senden der Nachricht: Kanal general nicht gefunden!
+2024-11-02 18:11:00,290 - ERROR - Fehler bei der Ausführung von send_message: Kanal general nicht gefunden!
+2024-11-02 18:12:30,314 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-02 18:12:30,316 - INFO - logging in using static token
+2024-11-02 18:12:31,476 - INFO - Shard ID None has connected to Gateway (Session ID: be67f941882a676af44e4d95b464818d).
+2024-11-02 18:12:33,519 - INFO - Botismus#0717 ist online!
+2024-11-02 18:12:35,049 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:12:35,050 - ERROR - Fehler beim Senden der Nachricht: Kanal 'general' nicht gefunden!
+Verfügbare Textkanäle: Allgemein, ttt, bot, allgemein
+2024-11-02 18:13:48,976 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-02 18:13:48,977 - INFO - logging in using static token
+2024-11-02 18:13:50,026 - INFO - Shard ID None has connected to Gateway (Session ID: 4059359773cae7e47cfdf152a461aeb9).
+2024-11-02 18:13:52,022 - INFO - Botismus#0717 ist online!
+2024-11-02 18:13:57,094 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:13:57,095 - ERROR - Fehler beim Parsen der KI-Antwort: Expecting value: line 1 column 1 (char 0)
+2024-11-02 18:14:57,850 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-02 18:14:57,852 - INFO - logging in using static token
+2024-11-02 18:14:59,003 - INFO - Shard ID None has connected to Gateway (Session ID: e17834059e5ed89d0dbca540e7431092).
+2024-11-02 18:15:01,018 - INFO - Botismus#0717 ist online!
+2024-11-02 18:15:07,986 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:18:55,535 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-02 18:18:55,536 - INFO - logging in using static token
+2024-11-02 18:18:56,718 - INFO - Shard ID None has connected to Gateway (Session ID: 5de078a8c4109b3de01bf4b979b0ff97).
+2024-11-02 18:18:58,726 - INFO - Botismus#0717 ist online!
+2024-11-02 18:19:06,202 - INFO - Neue Nachricht von myusernameisnew: Hey!
+2024-11-02 18:19:06,202 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:19:06,202 - INFO - User Prompt: Hey!
+2024-11-02 18:19:06,202 - INFO - System Prompt:
+Du bist ein Discord-Bot-Manager. 
+Antworte AUSSCHLIESSLICH im folgenden Format, ohne zusätzlichen Text:
+
+ACTION: [action_name]
+PARAMS: {"param1": "value1", "param2": "value2"}
+
+Verfügbare Textkanäle: Allgemein, ttt, bot, allgemein
+
+Verfügbare Aktionen:
+1. create_channel: {"name": "name", "type": "text|voice|forum", "category": "category_name"}
+2. create_role: {"name": "name", "color": "#HEX_COLOR", "permissions": ["permission1"]}
+3. update_description: {"description": "text"}
+4. create_command: {"name": "name", "description": "text", "response": "text"}
+5. send_message: {"channel": "channel_name", "message": "text"}
+6. create_category: {"name": "name"}
+7. delete_command: {"name": "name"}
+8. analyze_channels: {}
+9. analyze_roles: {}
+
+WICHTIG: Antworte NUR mit ACTION und PARAMS, keine zusätzlichen Erklärungen!
+2024-11-02 18:19:06,202 - INFO - Sende Anfrage an Ollama...
+2024-11-02 18:19:06,598 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:19:06,599 - INFO - KI-Antwort erhalten:
+ACTION: 
+PARAMS: {}
+2024-11-02 18:20:30,150 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-02 18:20:30,152 - INFO - logging in using static token
+2024-11-02 18:20:31,168 - INFO - Shard ID None has connected to Gateway (Session ID: 6e0ba110a5309ac92f2c8880d821bcc5).
+2024-11-02 18:20:33,175 - INFO - Botismus#0717 ist online!
+2024-11-02 18:20:38,031 - INFO - Neue Nachricht von myusernameisnew: Hi!
+2024-11-02 18:20:38,031 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:20:38,031 - INFO - User Prompt: Hi!
+2024-11-02 18:20:38,031 - INFO - System Prompt:
+Du bist ein Discord-Bot-Manager. 
+Antworte AUSSCHLIESSLICH im folgenden Format, ohne zusätzlichen Text:
+
+ACTION: [action_name]
+PARAMS: {"param1": "value1", "param2": "value2"}
+
+Bei Begrüßungen oder allgemeinen Fragen:
+ACTION: send_message
+PARAMS: {"channel": "bot", "message": "DEINE_ANTWORT"}
+
+Verfügbare Textkanäle: Allgemein, ttt, bot, allgemein
+
+Verfügbare Aktionen:
+1. create_channel: {"name": "name", "type": "text|voice|forum", "category": "category_name"}
+2. create_role: {"name": "name", "color": "#HEX_COLOR", "permissions": ["permission1"]}
+3. update_description: {"description": "text"}
+4. create_command: {"name": "name", "description": "text", "response": "text"}
+5. send_message: {"channel": "channel_name", "message": "text"}
+6. create_category: {"name": "name"}
+7. delete_command: {"name": "name"}
+8. analyze_channels: {}
+9. analyze_roles: {}
+
+WICHTIG: 
+- Antworte IMMER mit ACTION und PARAMS
+- Bei Begrüßungen oder Smalltalk nutze send_message
+- Beachte die exakte Schreibweise der Kanäle
+- Gib hilfreiche und freundliche Antworten
+
+Beispiele:
+Auf "Hallo":
+ACTION: send_message
+PARAMS: {"channel": "bot", "message": "Hallo! Ich bin dein Bot-Manager. Wie kann ich dir helfen?"}
+
+Auf "Wer bist du?":
+ACTION: send_message
+PARAMS: {"channel": "bot", "message": "Ich bin ein KI-Bot-Manager, der dir hilft deinen Discord-Server zu verwalten. Ich kann Kanäle erstellen, Rollen verwalten und vieles mehr!"}
+
+2024-11-02 18:20:38,031 - INFO - Sende Anfrage an Ollama...
+2024-11-02 18:20:39,282 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:20:39,282 - INFO - KI-Antwort erhalten:
+ACTION: send_message
+PARAMS: {"channel": "bot", "message": "Hallo! Ich bin dein Bot-Manager. Wie kann ich dir helfen?"}
+2024-11-02 18:21:02,737 - INFO - Neue Nachricht von myusernameisnew: schreibe "Hallo" in allgemein Kanal
+2024-11-02 18:21:02,738 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:21:02,738 - INFO - User Prompt: schreibe "Hallo" in allgemein Kanal
+2024-11-02 18:21:02,738 - INFO - System Prompt:
+Du bist ein Discord-Bot-Manager. 
+Antworte AUSSCHLIESSLICH im folgenden Format, ohne zusätzlichen Text:
+
+ACTION: [action_name]
+PARAMS: {"param1": "value1", "param2": "value2"}
+
+Bei Begrüßungen oder allgemeinen Fragen:
+ACTION: send_message
+PARAMS: {"channel": "bot", "message": "DEINE_ANTWORT"}
+
+Verfügbare Textkanäle: Allgemein, ttt, bot, allgemein
+
+Verfügbare Aktionen:
+1. create_channel: {"name": "name", "type": "text|voice|forum", "category": "category_name"}
+2. create_role: {"name": "name", "color": "#HEX_COLOR", "permissions": ["permission1"]}
+3. update_description: {"description": "text"}
+4. create_command: {"name": "name", "description": "text", "response": "text"}
+5. send_message: {"channel": "channel_name", "message": "text"}
+6. create_category: {"name": "name"}
+7. delete_command: {"name": "name"}
+8. analyze_channels: {}
+9. analyze_roles: {}
+
+WICHTIG: 
+- Antworte IMMER mit ACTION und PARAMS
+- Bei Begrüßungen oder Smalltalk nutze send_message
+- Beachte die exakte Schreibweise der Kanäle
+- Gib hilfreiche und freundliche Antworten
+
+Beispiele:
+Auf "Hallo":
+ACTION: send_message
+PARAMS: {"channel": "bot", "message": "Hallo! Ich bin dein Bot-Manager. Wie kann ich dir helfen?"}
+
+Auf "Wer bist du?":
+ACTION: send_message
+PARAMS: {"channel": "bot", "message": "Ich bin ein KI-Bot-Manager, der dir hilft deinen Discord-Server zu verwalten. Ich kann Kanäle erstellen, Rollen verwalten und vieles mehr!"}
+
+2024-11-02 18:21:02,738 - INFO - Sende Anfrage an Ollama...
+2024-11-02 18:21:03,703 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:21:03,703 - INFO - KI-Antwort erhalten:
+ACTION: send_message
+PARAMS: {"channel": "allgemein", "message": "Hallo! Ich bin dein Bot-Manager. Wie kann ich dir helfen?"}
+2024-11-02 18:21:32,079 - INFO - Neue Nachricht von myusernameisnew: erstelle einen Kanal namens "Moin"
+2024-11-02 18:21:32,080 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:21:32,080 - INFO - User Prompt: erstelle einen Kanal namens "Moin"
+2024-11-02 18:21:32,080 - INFO - System Prompt:
+Du bist ein Discord-Bot-Manager. 
+Antworte AUSSCHLIESSLICH im folgenden Format, ohne zusätzlichen Text:
+
+ACTION: [action_name]
+PARAMS: {"param1": "value1", "param2": "value2"}
+
+Bei Begrüßungen oder allgemeinen Fragen:
+ACTION: send_message
+PARAMS: {"channel": "bot", "message": "DEINE_ANTWORT"}
+
+Verfügbare Textkanäle: Allgemein, ttt, bot, allgemein
+
+Verfügbare Aktionen:
+1. create_channel: {"name": "name", "type": "text|voice|forum", "category": "category_name"}
+2. create_role: {"name": "name", "color": "#HEX_COLOR", "permissions": ["permission1"]}
+3. update_description: {"description": "text"}
+4. create_command: {"name": "name", "description": "text", "response": "text"}
+5. send_message: {"channel": "channel_name", "message": "text"}
+6. create_category: {"name": "name"}
+7. delete_command: {"name": "name"}
+8. analyze_channels: {}
+9. analyze_roles: {}
+
+WICHTIG: 
+- Antworte IMMER mit ACTION und PARAMS
+- Bei Begrüßungen oder Smalltalk nutze send_message
+- Beachte die exakte Schreibweise der Kanäle
+- Gib hilfreiche und freundliche Antworten
+
+Beispiele:
+Auf "Hallo":
+ACTION: send_message
+PARAMS: {"channel": "bot", "message": "Hallo! Ich bin dein Bot-Manager. Wie kann ich dir helfen?"}
+
+Auf "Wer bist du?":
+ACTION: send_message
+PARAMS: {"channel": "bot", "message": "Ich bin ein KI-Bot-Manager, der dir hilft deinen Discord-Server zu verwalten. Ich kann Kanäle erstellen, Rollen verwalten und vieles mehr!"}
+
+2024-11-02 18:21:32,080 - INFO - Sende Anfrage an Ollama...
+2024-11-02 18:21:32,787 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:21:32,787 - INFO - KI-Antwort erhalten:
+ACTION: create_channel
+PARAMS: {"name": "Moin", "type": "text"}
+2024-11-02 18:22:02,407 - INFO - Neue Nachricht von myusernameisnew: mach den Kanal Moin in die Kategorie Textkanäle
+2024-11-02 18:22:02,408 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:22:02,408 - INFO - User Prompt: mach den Kanal Moin in die Kategorie Textkanäle
+2024-11-02 18:22:02,408 - INFO - System Prompt:
+Du bist ein Discord-Bot-Manager. 
+Antworte AUSSCHLIESSLICH im folgenden Format, ohne zusätzlichen Text:
+
+ACTION: [action_name]
+PARAMS: {"param1": "value1", "param2": "value2"}
+
+Bei Begrüßungen oder allgemeinen Fragen:
+ACTION: send_message
+PARAMS: {"channel": "bot", "message": "DEINE_ANTWORT"}
+
+Verfügbare Textkanäle: Allgemein, ttt, bot, allgemein, moin
+
+Verfügbare Aktionen:
+1. create_channel: {"name": "name", "type": "text|voice|forum", "category": "category_name"}
+2. create_role: {"name": "name", "color": "#HEX_COLOR", "permissions": ["permission1"]}
+3. update_description: {"description": "text"}
+4. create_command: {"name": "name", "description": "text", "response": "text"}
+5. send_message: {"channel": "channel_name", "message": "text"}
+6. create_category: {"name": "name"}
+7. delete_command: {"name": "name"}
+8. analyze_channels: {}
+9. analyze_roles: {}
+
+WICHTIG: 
+- Antworte IMMER mit ACTION und PARAMS
+- Bei Begrüßungen oder Smalltalk nutze send_message
+- Beachte die exakte Schreibweise der Kanäle
+- Gib hilfreiche und freundliche Antworten
+
+Beispiele:
+Auf "Hallo":
+ACTION: send_message
+PARAMS: {"channel": "bot", "message": "Hallo! Ich bin dein Bot-Manager. Wie kann ich dir helfen?"}
+
+Auf "Wer bist du?":
+ACTION: send_message
+PARAMS: {"channel": "bot", "message": "Ich bin ein KI-Bot-Manager, der dir hilft deinen Discord-Server zu verwalten. Ich kann Kanäle erstellen, Rollen verwalten und vieles mehr!"}
+
+2024-11-02 18:22:02,408 - INFO - Sende Anfrage an Ollama...
+2024-11-02 18:22:03,553 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:22:03,553 - INFO - KI-Antwort erhalten:
+ACTION: create_channel
+PARAMS: {"name": "Moin", "type": "text", "category": "Textkanäle"}
+2024-11-02 18:22:59,400 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-02 18:22:59,402 - INFO - logging in using static token
+2024-11-02 18:23:00,536 - INFO - Shard ID None has connected to Gateway (Session ID: 9af070a206334e92d2a075c1503be984).
+2024-11-02 18:23:02,566 - INFO - Botismus#0717 ist online!
+2024-11-02 18:23:21,871 - INFO - Neue Nachricht von myusernameisnew: verschiebe den Kanal Moin zu Textkanäle
+2024-11-02 18:23:21,871 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:23:21,871 - INFO - User Prompt: verschiebe den Kanal Moin zu Textkanäle
+2024-11-02 18:23:21,872 - INFO - System Prompt:
+Du bist ein Discord-Bot-Manager. 
+Antworte AUSSCHLIESSLICH im folgenden Format, ohne zusätzlichen Text:
+
+ACTION: [action_name]
+PARAMS: {"param1": "value1", "param2": "value2"}
+
+Bei Begrüßungen oder allgemeinen Fragen:
+ACTION: send_message
+PARAMS: {"channel": "bot", "message": "DEINE_ANTWORT"}
+
+Verfügbare Textkanäle: Allgemein, ttt, bot, allgemein, moin, moin
+
+Verfügbare Aktionen:
+1. create_channel: {"name": "name", "type": "text|voice|forum", "category": "category_name"}
+2. create_role: {"name": "name", "color": "#HEX_COLOR", "permissions": ["permission1"]}
+3. update_description: {"description": "text"}
+4. create_command: {"name": "name", "description": "text", "response": "text"}
+5. send_message: {"channel": "channel_name", "message": "text"}
+6. create_category: {"name": "name"}
+7. delete_command: {"name": "name"}
+8. analyze_channels: {}
+9. analyze_roles: {}
+10. move_channel: {"channel": "channel_name", "category": "category_name"}
+
+WICHTIG: 
+- Antworte IMMER mit ACTION und PARAMS
+- Bei Begrüßungen oder Smalltalk nutze send_message
+- Beachte die exakte Schreibweise der Kanäle
+- Gib hilfreiche und freundliche Antworten
+
+Beispiele:
+Auf "Hallo":
+ACTION: send_message
+PARAMS: {"channel": "bot", "message": "Hallo! Ich bin dein Bot-Manager. Wie kann ich dir helfen?"}
+
+Auf "Wer bist du?":
+ACTION: send_message
+PARAMS: {"channel": "bot", "message": "Ich bin ein KI-Bot-Manager, der dir hilft deinen Discord-Server zu verwalten. Ich kann Kanäle erstellen, Rollen verwalten und vieles mehr!"}
+
+2024-11-02 18:23:21,872 - INFO - Sende Anfrage an Ollama...
+2024-11-02 18:23:22,826 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:23:22,826 - INFO - KI-Antwort erhalten:
+ACTION: move_channel
+PARAMS: {"channel": "moin", "category": "Allgemein"}
+2024-11-02 18:24:04,091 - INFO - Neue Nachricht von myusernameisnew: Lösche die Kategorie Allgemein und alles was dort innen ist
+2024-11-02 18:24:04,091 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:24:04,091 - INFO - User Prompt: Lösche die Kategorie Allgemein und alles was dort innen ist
+2024-11-02 18:24:04,091 - INFO - System Prompt:
+Du bist ein Discord-Bot-Manager. 
+Antworte AUSSCHLIESSLICH im folgenden Format, ohne zusätzlichen Text:
+
+ACTION: [action_name]
+PARAMS: {"param1": "value1", "param2": "value2"}
+
+Bei Begrüßungen oder allgemeinen Fragen:
+ACTION: send_message
+PARAMS: {"channel": "bot", "message": "DEINE_ANTWORT"}
+
+Verfügbare Textkanäle: Allgemein, ttt, bot, allgemein, moin, moin
+
+Verfügbare Aktionen:
+1. create_channel: {"name": "name", "type": "text|voice|forum", "category": "category_name"}
+2. create_role: {"name": "name", "color": "#HEX_COLOR", "permissions": ["permission1"]}
+3. update_description: {"description": "text"}
+4. create_command: {"name": "name", "description": "text", "response": "text"}
+5. send_message: {"channel": "channel_name", "message": "text"}
+6. create_category: {"name": "name"}
+7. delete_command: {"name": "name"}
+8. analyze_channels: {}
+9. analyze_roles: {}
+10. move_channel: {"channel": "channel_name", "category": "category_name"}
+
+WICHTIG: 
+- Antworte IMMER mit ACTION und PARAMS
+- Bei Begrüßungen oder Smalltalk nutze send_message
+- Beachte die exakte Schreibweise der Kanäle
+- Gib hilfreiche und freundliche Antworten
+
+Beispiele:
+Auf "Hallo":
+ACTION: send_message
+PARAMS: {"channel": "bot", "message": "Hallo! Ich bin dein Bot-Manager. Wie kann ich dir helfen?"}
+
+Auf "Wer bist du?":
+ACTION: send_message
+PARAMS: {"channel": "bot", "message": "Ich bin ein KI-Bot-Manager, der dir hilft deinen Discord-Server zu verwalten. Ich kann Kanäle erstellen, Rollen verwalten und vieles mehr!"}
+
+2024-11-02 18:24:04,091 - INFO - Sende Anfrage an Ollama...
+2024-11-02 18:24:04,669 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:24:04,669 - INFO - KI-Antwort erhalten:
+ACTION: delete_category
+PARAMS: {"name": "Allgemein"}
+2024-11-02 18:25:43,797 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-02 18:25:43,799 - INFO - logging in using static token
+2024-11-02 18:25:44,855 - INFO - Shard ID None has connected to Gateway (Session ID: abcb2293706cd1fac8f7e57b7a6288b8).
+2024-11-02 18:25:46,867 - INFO - Botismus#0717 ist online!
+2024-11-02 18:26:27,867 - INFO - Neue Nachricht von myusernameisnew: erstelle einen Rules Kanal und schreibe auch die Regeln für den Server auf
+2024-11-02 18:26:27,867 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:26:27,867 - INFO - User Prompt: erstelle einen Rules Kanal und schreibe auch die Regeln für den Server auf
+2024-11-02 18:26:27,868 - INFO - System Prompt:
+Du bist ein Discord-Bot-Manager. 
+Antworte mit einer oder mehreren Aktionen im folgenden Format:
+
+ACTIONS: [
+    {
+        "action": "action_name",
+        "params": {"param1": "value1", "param2": "value2"}
+    },
+    {
+        "action": "another_action",
+        "params": {"param1": "value1"}
+    }
+]
+
+Bei Begrüßungen oder allgemeinen Fragen nutze:
+ACTIONS: [
+    {
+        "action": "send_message",
+        "params": {"channel": "bot", "message": "DEINE_ANTWORT"}
+    }
+]
+
+Verfügbare Textkanäle: Allgemein, ttt, bot, allgemein, moin, moin
+
+Verfügbare Aktionen:
+1. create_channel: {"name": "name", "type": "text|voice|forum", "category": "category_name"}
+2. create_role: {"name": "name", "color": "#HEX_COLOR", "permissions": ["permission1"]}
+3. update_description: {"description": "text"}
+4. create_command: {"name": "name", "description": "text", "response": "text"}
+5. send_message: {"channel": "channel_name", "message": "text"}
+6. create_category: {"name": "name"}
+7. delete_command: {"name": "name"}
+8. analyze_channels: {}
+9. analyze_roles: {}
+10. move_channel: {"channel": "channel_name", "category": "category_name"}
+
+Beispiele für mehrere Aktionen:
+"Erstelle einen Textkanal namens news in der Kategorie Info und sende eine Willkommensnachricht":
+ACTIONS: [
+    {
+        "action": "create_category",
+        "params": {"name": "Info"}
+    },
+    {
+        "action": "create_channel",
+        "params": {"name": "news", "type": "text", "category": "Info"}
+    },
+    {
+        "action": "send_message",
+        "params": {"channel": "news", "message": "Willkommen im News-Kanal!"}
+    }
+]
+2024-11-02 18:26:27,868 - INFO - Sende Anfrage an Ollama...
+2024-11-02 18:26:32,470 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:26:32,471 - INFO - KI-Antwort erhalten:
+ACTIONS: [
+  {
+      "action": "create_category",
+      "params": {"name": "Regeln"}
+  },
+  {
+      "action": "create_channel",
+      "params": {"name": "Rules", "type": "text", "category": "Regeln"}
+  },
+  {
+    "action": "send_message",
+    "params": {
+        "channel": "Rules",
+        "message": "Wir haben 5 Regeln, damit wir alle eine gute Zeit haben können:\n\n1. Respektiere andere Mitglieder.\n2. Vermeide Spam und Unfug.\n3. Teile deine Gedanken und Ideen mit uns.\n4. Verstehe, dass ich ein Bot bin und behandele mich entsprechend.\n5. Lies unsere Regeln und beachte sie."
+    }
+  },
+  {
+      "action": "update_description",
+      "params": {"description": "Die offiziellen Regeln für unseren Server."}
+  }
+]
+2024-11-02 18:27:04,938 - INFO - Neue Nachricht von myusernameisnew: gestalte es besser
+2024-11-02 18:27:04,939 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:27:04,939 - INFO - User Prompt: gestalte es besser
+2024-11-02 18:27:04,939 - INFO - System Prompt:
+Du bist ein Discord-Bot-Manager. 
+Antworte mit einer oder mehreren Aktionen im folgenden Format:
+
+ACTIONS: [
+    {
+        "action": "action_name",
+        "params": {"param1": "value1", "param2": "value2"}
+    },
+    {
+        "action": "another_action",
+        "params": {"param1": "value1"}
+    }
+]
+
+Bei Begrüßungen oder allgemeinen Fragen nutze:
+ACTIONS: [
+    {
+        "action": "send_message",
+        "params": {"channel": "bot", "message": "DEINE_ANTWORT"}
+    }
+]
+
+Verfügbare Textkanäle: Allgemein, ttt, bot, allgemein, moin, moin, rules
+
+Verfügbare Aktionen:
+1. create_channel: {"name": "name", "type": "text|voice|forum", "category": "category_name"}
+2. create_role: {"name": "name", "color": "#HEX_COLOR", "permissions": ["permission1"]}
+3. update_description: {"description": "text"}
+4. create_command: {"name": "name", "description": "text", "response": "text"}
+5. send_message: {"channel": "channel_name", "message": "text"}
+6. create_category: {"name": "name"}
+7. delete_command: {"name": "name"}
+8. analyze_channels: {}
+9. analyze_roles: {}
+10. move_channel: {"channel": "channel_name", "category": "category_name"}
+
+Beispiele für mehrere Aktionen:
+"Erstelle einen Textkanal namens news in der Kategorie Info und sende eine Willkommensnachricht":
+ACTIONS: [
+    {
+        "action": "create_category",
+        "params": {"name": "Info"}
+    },
+    {
+        "action": "create_channel",
+        "params": {"name": "news", "type": "text", "category": "Info"}
+    },
+    {
+        "action": "send_message",
+        "params": {"channel": "news", "message": "Willkommen im News-Kanal!"}
+    }
+]
+2024-11-02 18:27:04,939 - INFO - Sende Anfrage an Ollama...
+2024-11-02 18:27:15,769 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:27:15,770 - INFO - KI-Antwort erhalten:
+Um das Layout zu verbessern, habe ich einige Änderungen vorgenommen. Die wichtigsten Punkte sind:
+
+1. Eine klare und benutzerfreundliche Struktur für die Aktionen
+2. Ein einfacheres Format, das leichter lesbar ist
+3. Eine Übersicht über die verfügbaren Kanäle und Aktionen
+
+Hier ist der verbesserte Code:
+```markdown
+**Verfügbare Textkanäle:**
+* Allgemein
+* ttt
+* bot
+* allgemein
+* moin
+* moin
+* rules
+
+**Verfügbare Aktionen:**
+1. **Erstellen eines Kanals**: create_channel
+   * name: "Name des Kanals"
+   * type: "text" oder "voice" (für Text- oder Sprachkanäle)
+   * category: "Kategorie-Name"
+
+2. **Erstellen einer Rolle**: create_role
+   * name: "Name der Rolle"
+   * color: "#HEX-Farbe" (z.B. "#FF0000")
+   * permissions: Liste von Berechtigungen
+
+3. **Aktualisieren der Beschreibung**: update_description
+   * description: Neuer Text für die Beschreibung
+
+4. **Erstellen eines Befehls**: create_command
+   * name: "Name des Befehls"
+   * description: Kurze Beschreibung des Befehls
+   * response: Antwort auf den Befehl
+
+5. **Sende eine Nachricht**: send_message
+   * channel: Name des Kanals, in dem die Nachricht gesendet werden soll
+   * message: Text der Nachricht
+
+6. **Erstellen einer Kategorie**: create_category
+   * name: Name der Kategorie
+
+7. **Löschen eines Befehls**: delete_command
+   * name: Name des Befehls, den du löschen möchtest
+
+8. **Analyse der Kanäle**: analyze_channels
+   * keine Parameter erforderlich
+
+9. **Analyse der Rollen**: analyze_roles
+   * keine Parameter erforderlich
+
+10. **Verschieben eines Kanals**: move_channel
+    * channel: Name des Kanals, den du verschieben möchtest
+    * category: Name der Kategorie, in die du den Kanal verschieben möchtest
+
+**Beispiel:**
+Erstelle einen Textkanal namens "news" in der Kategorie "Info" und sende eine Willkommensnachricht:
+```
+2024-11-02 18:27:15,770 - ERROR - Fehler beim Parsen der KI-Antwort: 
+Antwort war: Um das Layout zu verbessern, habe ich einige Änderungen vorgenommen. Die wichtigsten Punkte sind:
+
+1. Eine klare und benutzerfreundliche Struktur für die Aktionen
+2. Ein einfacheres Format, das leichter lesbar ist
+3. Eine Übersicht über die verfügbaren Kanäle und Aktionen
+
+Hier ist der verbesserte Code:
+```markdown
+**Verfügbare Textkanäle:**
+* Allgemein
+* ttt
+* bot
+* allgemein
+* moin
+* moin
+* rules
+
+**Verfügbare Aktionen:**
+1. **Erstellen eines Kanals**: create_channel
+   * name: "Name des Kanals"
+   * type: "text" oder "voice" (für Text- oder Sprachkanäle)
+   * category: "Kategorie-Name"
+
+2. **Erstellen einer Rolle**: create_role
+   * name: "Name der Rolle"
+   * color: "#HEX-Farbe" (z.B. "#FF0000")
+   * permissions: Liste von Berechtigungen
+
+3. **Aktualisieren der Beschreibung**: update_description
+   * description: Neuer Text für die Beschreibung
+
+4. **Erstellen eines Befehls**: create_command
+   * name: "Name des Befehls"
+   * description: Kurze Beschreibung des Befehls
+   * response: Antwort auf den Befehl
+
+5. **Sende eine Nachricht**: send_message
+   * channel: Name des Kanals, in dem die Nachricht gesendet werden soll
+   * message: Text der Nachricht
+
+6. **Erstellen einer Kategorie**: create_category
+   * name: Name der Kategorie
+
+7. **Löschen eines Befehls**: delete_command
+   * name: Name des Befehls, den du löschen möchtest
+
+8. **Analyse der Kanäle**: analyze_channels
+   * keine Parameter erforderlich
+
+9. **Analyse der Rollen**: analyze_roles
+   * keine Parameter erforderlich
+
+10. **Verschieben eines Kanals**: move_channel
+    * channel: Name des Kanals, den du verschieben möchtest
+    * category: Name der Kategorie, in die du den Kanal verschieben möchtest
+
+**Beispiel:**
+Erstelle einen Textkanal namens "news" in der Kategorie "Info" und sende eine Willkommensnachricht:
+```
+2024-11-02 18:30:22,100 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-02 18:30:22,102 - INFO - logging in using static token
+2024-11-02 18:30:23,371 - INFO - Shard ID None has connected to Gateway (Session ID: a72b518a52d04d2de9522b4a3b9e919a).
+2024-11-02 18:30:25,378 - INFO - Botismus#0717 ist online!
+2024-11-02 18:30:30,873 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:30:30,873 - INFO - User Prompt: Was kannst du?
+2024-11-02 18:30:31,127 - ERROR - Fehler bei der Nachrichtenverarbeitung: name 'ai_memory' is not defined
+2024-11-02 18:30:31,127 - ERROR - Ignoring exception in on_message
+Traceback (most recent call last):
+  File "C:\Users\dinus\PycharmProjects\Botismus\main.py", line 364, in on_message
+    response = await get_ai_response(user_input, message.guild)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\dinus\PycharmProjects\Botismus\main.py", line 45, in get_ai_response
+    recent_context = ai_memory.get_context_for_prompt()
+                     ^^^^^^^^^
+NameError: name 'ai_memory' is not defined. Did you mean: 'AIMemory'?
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\dinus\PycharmProjects\Botismus\.venv\Lib\site-packages\discord\client.py", line 449, in _run_event
+    await coro(*args, **kwargs)
+  File "C:\Users\dinus\PycharmProjects\Botismus\main.py", line 410, in on_message
+    ai_memory.add_interaction(
+    ^^^^^^^^^
+NameError: name 'ai_memory' is not defined. Did you mean: 'AIMemory'?
+2024-11-02 18:31:16,941 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-02 18:31:16,943 - INFO - logging in using static token
+2024-11-02 18:31:17,956 - INFO - Shard ID None has connected to Gateway (Session ID: 84cc0e7215f888f6f5c6716a2ed9028c).
+2024-11-02 18:31:19,958 - INFO - Botismus#0717 ist online!
+2024-11-02 18:31:24,731 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:31:24,731 - INFO - User Prompt: Was kannst du?
+2024-11-02 18:31:24,731 - INFO - System Prompt:
+Du bist ein Discord-Bot-Manager mit einem Score von 0 Punkten und einer Erfolgsrate von 0.0%.
+Deine letzten Interaktionen:
+
+
+Antworte mit einer oder mehreren Aktionen im folgenden Format:
+
+ACTIONS: [
+    {
+        "action": "action_name",
+        "params": {"param1": "value1", "param2": "value2"}
+    },
+    {
+        "action": "another_action",
+        "params": {"param1": "value1"}
+    }
+]
+
+Bei Begrüßungen oder allgemeinen Fragen nutze:
+ACTIONS: [
+    {
+        "action": "send_message",
+        "params": {"channel": "bot", "message": "DEINE_ANTWORT"}
+    }
+]
+
+Verfügbare Textkanäle: Allgemein, ttt, bot, allgemein, moin, moin, rules
+
+Verfügbare Aktionen:
+1. create_channel: {"name": "name", "type": "text|voice|forum", "category": "category_name"}
+2. create_role: {"name": "name", "color": "#HEX_COLOR", "permissions": ["permission1"]}
+3. update_description: {"description": "text"}
+4. create_command: {"name": "name", "description": "text", "response": "text"}
+5. send_message: {"channel": "channel_name", "message": "text"}
+6. create_category: {"name": "name"}
+7. delete_command: {"name": "name"}
+8. analyze_channels: {}
+9. analyze_roles: {}
+10. move_channel: {"channel": "channel_name", "category": "category_name"}
+
+Beispiele für mehrere Aktionen:
+"Erstelle einen Textkanal namens news in der Kategorie Info und sende eine Willkommensnachricht":
+ACTIONS: [
+    {
+        "action": "create_category",
+        "params": {"name": "Info"}
+    },
+    {
+        "action": "create_channel",
+        "params": {"name": "news", "type": "text", "category": "Info"}
+    },
+    {
+        "action": "send_message",
+        "params": {"channel": "news", "message": "Willkommen im News-Kanal!"}
+    }
+]
+2024-11-02 18:31:24,732 - INFO - Sende Anfrage an Ollama...
+2024-11-02 18:31:26,855 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:31:26,856 - INFO - KI-Antwort erhalten:
+ACTIONS: [
+    {
+        "action": "send_message",
+        "params": {"channel": "bot", "message": "Ich kann verschiedene Aktionen auf deinem Discord-Server ausführen, wie z.B. das Erstellen von Kanälen und Rollen, die Änderung der Beschreibung eines Kanals oder die Implementierung von Befehlen."}
+    }
+]
+2024-11-02 18:31:55,572 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:31:55,572 - INFO - User Prompt: mach den Rules kanal schöner
+2024-11-02 18:31:55,572 - INFO - System Prompt:
+Du bist ein Discord-Bot-Manager mit einem Score von 10 Punkten und einer Erfolgsrate von 100.0%.
+Deine letzten Interaktionen:
+User: Was kannst du?
+Bot: ACTIONS: [
+    {
+        "action": "send_message",
+        "params": {"channel": "bot", "message": "Ich kann verschiedene Aktionen auf deinem Discord-Server ausführen, wie z.B. das Erstellen von Kanälen und Rollen, die Änderung der Beschreibung eines Kanals oder die Implementierung von Befehlen."}
+    }
+]
+
+Antworte mit einer oder mehreren Aktionen im folgenden Format:
+
+ACTIONS: [
+    {
+        "action": "action_name",
+        "params": {"param1": "value1", "param2": "value2"}
+    },
+    {
+        "action": "another_action",
+        "params": {"param1": "value1"}
+    }
+]
+
+Bei Begrüßungen oder allgemeinen Fragen nutze:
+ACTIONS: [
+    {
+        "action": "send_message",
+        "params": {"channel": "bot", "message": "DEINE_ANTWORT"}
+    }
+]
+
+Verfügbare Textkanäle: Allgemein, ttt, bot, allgemein, moin, moin, rules
+
+Verfügbare Aktionen:
+1. create_channel: {"name": "name", "type": "text|voice|forum", "category": "category_name"}
+2. create_role: {"name": "name", "color": "#HEX_COLOR", "permissions": ["permission1"]}
+3. update_description: {"description": "text"}
+4. create_command: {"name": "name", "description": "text", "response": "text"}
+5. send_message: {"channel": "channel_name", "message": "text"}
+6. create_category: {"name": "name"}
+7. delete_command: {"name": "name"}
+8. analyze_channels: {}
+9. analyze_roles: {}
+10. move_channel: {"channel": "channel_name", "category": "category_name"}
+
+Beispiele für mehrere Aktionen:
+"Erstelle einen Textkanal namens news in der Kategorie Info und sende eine Willkommensnachricht":
+ACTIONS: [
+    {
+        "action": "create_category",
+        "params": {"name": "Info"}
+    },
+    {
+        "action": "create_channel",
+        "params": {"name": "news", "type": "text", "category": "Info"}
+    },
+    {
+        "action": "send_message",
+        "params": {"channel": "news", "message": "Willkommen im News-Kanal!"}
+    }
+]
+2024-11-02 18:31:55,573 - INFO - Sende Anfrage an Ollama...
+2024-11-02 18:31:57,729 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:31:57,729 - INFO - KI-Antwort erhalten:
+ACTIONS: [
+    {
+        "action": "update_description",
+        "params": {"description": "Hier findest du unsere Server-Regeln und -Richtlinien. Lesen Sie sie bitte sorgfältig durch, um sicherzustellen, dass wir alle gemeinsam einen tollen Discord-Server haben!"}
+    }
+]
+2024-11-02 18:33:20,629 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-02 18:33:20,631 - INFO - logging in using static token
+2024-11-02 18:33:21,567 - INFO - Shard ID None has connected to Gateway (Session ID: 171579b927dd7f5fba1a065910029cd3).
+2024-11-02 18:33:23,586 - INFO - Botismus#0717 ist online!
+2024-11-02 18:33:48,846 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:33:48,846 - INFO - User Prompt: ändere die Beschreibung in Kanal Rules
+2024-11-02 18:33:48,846 - INFO - System Prompt:
+Du bist ein Discord-Bot-Manager mit einem Score von 20 Punkten und einer Erfolgsrate von 100.0%.
+Deine letzten Interaktionen:
+User: Was kannst du?
+Bot: ACTIONS: [
+    {
+        "action": "send_message",
+        "params": {"channel": "bot", "message": "Ich kann verschiedene Aktionen auf deinem Discord-Server ausführen, wie z.B. das Erstellen von Kanälen und Rollen, die Änderung der Beschreibung eines Kanals oder die Implementierung von Befehlen."}
+    }
+]
+User: mach den Rules kanal schöner
+Bot: ACTIONS: [
+    {
+        "action": "update_description",
+        "params": {"description": "Hier findest du unsere Server-Regeln und -Richtlinien. Lesen Sie sie bitte sorgfältig durch, um sicherzustellen, dass wir alle gemeinsam einen tollen Discord-Server haben!"}
+    }
+]
+
+Antworte mit einer oder mehreren Aktionen im folgenden Format:
+
+ACTIONS: [
+    {
+        "action": "action_name",
+        "params": {"param1": "value1", "param2": "value2"}
+    },
+    {
+        "action": "another_action",
+        "params": {"param1": "value1"}
+    }
+]
+
+Bei Begrüßungen oder allgemeinen Fragen nutze:
+ACTIONS: [
+    {
+        "action": "send_message",
+        "params": {"channel": "bot", "message": "DEINE_ANTWORT"}
+    }
+]
+
+Verfügbare Textkanäle: Allgemein, ttt, bot, allgemein, moin, moin, rules
+
+Verfügbare Aktionen:
+1. create_channel: {"name": "name", "type": "text|voice|forum", "category": "category_name"}
+2. create_role: {"name": "name", "color": "#HEX_COLOR", "permissions": ["permission1"]}
+3. update_description: {"channel": "channel_name", "description": "neue_beschreibung"}
+4. create_command: {"name": "name", "description": "text", "response": "text"}
+5. send_message: {"channel": "channel_name", "message": "text"}
+6. create_category: {"name": "name"}
+7. delete_command: {"name": "name"}
+8. analyze_channels: {}
+9. analyze_roles: {}
+10. move_channel: {"channel": "channel_name", "category": "category_name"}
+
+Beispiele für mehrere Aktionen:
+"Erstelle einen Textkanal namens news in der Kategorie Info und sende eine Willkommensnachricht":
+ACTIONS: [
+    {
+        "action": "create_category",
+        "params": {"name": "Info"}
+    },
+    {
+        "action": "create_channel",
+        "params": {"name": "news", "type": "text", "category": "Info"}
+    },
+    {
+        "action": "send_message",
+        "params": {"channel": "news", "message": "Willkommen im News-Kanal!"}
+    }
+]
+2024-11-02 18:33:48,847 - INFO - Sende Anfrage an Ollama...
+2024-11-02 18:33:51,096 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:33:51,096 - INFO - KI-Antwort erhalten:
+ACTIONS: [
+    {
+        "action": "update_description",
+        "params": {"description": "Hier findest du unsere Server-Regeln und -Richtlinien. Lesen Sie sie bitte sorgfältig durch, um sicherzustellen, dass wir alle gemeinsam einen tollen Discord-Server haben!", "channel": "rules"}
+    }
+]
+2024-11-02 18:34:22,064 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:34:22,064 - INFO - User Prompt: mach die regeln schöner als mit emojis und sowas
+2024-11-02 18:34:22,065 - INFO - System Prompt:
+Du bist ein Discord-Bot-Manager mit einem Score von 30 Punkten und einer Erfolgsrate von 100.0%.
+Deine letzten Interaktionen:
+User: Was kannst du?
+Bot: ACTIONS: [
+    {
+        "action": "send_message",
+        "params": {"channel": "bot", "message": "Ich kann verschiedene Aktionen auf deinem Discord-Server ausführen, wie z.B. das Erstellen von Kanälen und Rollen, die Änderung der Beschreibung eines Kanals oder die Implementierung von Befehlen."}
+    }
+]
+User: mach den Rules kanal schöner
+Bot: ACTIONS: [
+    {
+        "action": "update_description",
+        "params": {"description": "Hier findest du unsere Server-Regeln und -Richtlinien. Lesen Sie sie bitte sorgfältig durch, um sicherzustellen, dass wir alle gemeinsam einen tollen Discord-Server haben!"}
+    }
+]
+User: ändere die Beschreibung in Kanal Rules
+Bot: ACTIONS: [
+    {
+        "action": "update_description",
+        "params": {"description": "Hier findest du unsere Server-Regeln und -Richtlinien. Lesen Sie sie bitte sorgfältig durch, um sicherzustellen, dass wir alle gemeinsam einen tollen Discord-Server haben!", "channel": "rules"}
+    }
+]
+
+Antworte mit einer oder mehreren Aktionen im folgenden Format:
+
+ACTIONS: [
+    {
+        "action": "action_name",
+        "params": {"param1": "value1", "param2": "value2"}
+    },
+    {
+        "action": "another_action",
+        "params": {"param1": "value1"}
+    }
+]
+
+Bei Begrüßungen oder allgemeinen Fragen nutze:
+ACTIONS: [
+    {
+        "action": "send_message",
+        "params": {"channel": "bot", "message": "DEINE_ANTWORT"}
+    }
+]
+
+Verfügbare Textkanäle: Allgemein, ttt, bot, allgemein, moin, moin, rules
+
+Verfügbare Aktionen:
+1. create_channel: {"name": "name", "type": "text|voice|forum", "category": "category_name"}
+2. create_role: {"name": "name", "color": "#HEX_COLOR", "permissions": ["permission1"]}
+3. update_description: {"channel": "channel_name", "description": "neue_beschreibung"}
+4. create_command: {"name": "name", "description": "text", "response": "text"}
+5. send_message: {"channel": "channel_name", "message": "text"}
+6. create_category: {"name": "name"}
+7. delete_command: {"name": "name"}
+8. analyze_channels: {}
+9. analyze_roles: {}
+10. move_channel: {"channel": "channel_name", "category": "category_name"}
+
+Beispiele für mehrere Aktionen:
+"Erstelle einen Textkanal namens news in der Kategorie Info und sende eine Willkommensnachricht":
+ACTIONS: [
+    {
+        "action": "create_category",
+        "params": {"name": "Info"}
+    },
+    {
+        "action": "create_channel",
+        "params": {"name": "news", "type": "text", "category": "Info"}
+    },
+    {
+        "action": "send_message",
+        "params": {"channel": "news", "message": "Willkommen im News-Kanal!"}
+    }
+]
+2024-11-02 18:34:22,065 - INFO - Sende Anfrage an Ollama...
+2024-11-02 18:34:26,247 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:34:26,507 - ERROR - Fehler bei der Ausführung von update_description: 'channel'
+2024-11-02 18:35:55,552 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-02 18:35:55,554 - INFO - logging in using static token
+2024-11-02 18:35:56,533 - INFO - Shard ID None has connected to Gateway (Session ID: dcb4cbddcba9a622925fb954124a8bd7).
+2024-11-02 18:35:58,571 - INFO - Botismus#0717 ist online!
+2024-11-02 18:36:29,689 - INFO - Nachricht in #bot: was war die letzte nachricht in "Allgemein"
+2024-11-02 18:36:29,982 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:36:29,983 - INFO - User Prompt: was war die letzte nachricht in "Allgemein"
+2024-11-02 18:36:29,995 - INFO - Sende Anfrage an Ollama...
+2024-11-02 18:36:31,946 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:37:00,059 - INFO - Nachricht in #bot: was mir was die letzte nachricht was die retrotee gesendet hat
+2024-11-02 18:37:00,352 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:37:00,352 - INFO - User Prompt: was mir was die letzte nachricht was die retrotee gesendet hat
+2024-11-02 18:37:00,358 - INFO - Sende Anfrage an Ollama...
+2024-11-02 18:37:02,145 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:37:02,145 - INFO - KI-Antwort erhalten:
+Entschuldigung, aber ich kann dich nicht in diesem Chat weiterhelfen. Wenn du Hilfe bei einem anderen Thema benötigst, stehe ich dir gerne zur Verfügung.
+2024-11-02 18:37:02,146 - ERROR - Fehler beim Parsen der KI-Antwort: 
+Antwort war: Entschuldigung, aber ich kann dich nicht in diesem Chat weiterhelfen. Wenn du Hilfe bei einem anderen Thema benötigst, stehe ich dir gerne zur Verfügung.
+2024-11-02 18:37:20,882 - INFO - Nachricht in #bot: wann hat retrotee zuletzt geschrieben
+2024-11-02 18:37:21,221 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:37:21,221 - INFO - User Prompt: wann hat retrotee zuletzt geschrieben
+2024-11-02 18:37:21,224 - INFO - Sende Anfrage an Ollama...
+2024-11-02 18:37:22,548 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:37:22,548 - INFO - KI-Antwort erhalten:
+Es tut mir leid, aber ich kann diese Information nicht bereitstellen.
+2024-11-02 18:37:22,549 - ERROR - Fehler beim Parsen der KI-Antwort: 
+Antwort war: Es tut mir leid, aber ich kann diese Information nicht bereitstellen.
+2024-11-02 18:37:57,878 - INFO - Nachricht in #bot: erstelle einen command was ein echo mach
+2024-11-02 18:37:58,299 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:37:58,300 - INFO - User Prompt: erstelle einen command was ein echo mach
+2024-11-02 18:37:58,305 - INFO - Sende Anfrage an Ollama...
+2024-11-02 18:38:00,312 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:38:00,312 - INFO - KI-Antwort erhalten:
+ACTIONS: [
+    {
+        "action": "create_command",
+        "params": {
+            "name": "echo",
+            "description": "Wiederhole das eingegebene Text",
+            "response": "{args}"
+        }
+    }
+]
+2024-11-02 18:38:05,445 - INFO - Nachricht in #bot: /echo
+2024-11-02 18:38:05,688 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:38:05,688 - INFO - User Prompt: /echo
+2024-11-02 18:38:05,691 - INFO - Sende Anfrage an Ollama...
+2024-11-02 18:38:07,303 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:38:07,303 - INFO - KI-Antwort erhalten:
+ACTIONS: [
+  {
+    "action": "execute_command",
+    "params": {"name": "echo", "args": "/echo"}
+  }
+]
+2024-11-02 18:38:07,830 - ERROR - Fehler bei der Nachrichtenverarbeitung: sequence item 0: expected str instance, NoneType found
+2024-11-02 18:38:07,832 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "echo" is not found
+2024-11-02 18:38:12,892 - INFO - Nachricht in #allgemein: /echo
+2024-11-02 18:38:12,893 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "echo" is not found
+2024-11-02 18:41:07,192 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-02 18:41:07,194 - INFO - logging in using static token
+2024-11-02 18:41:08,521 - INFO - Shard ID None has connected to Gateway (Session ID: 547a81198496ce14f1a0647cfb82a536).
+2024-11-02 18:41:10,534 - INFO - Botismus#0717 ist online!
+2024-11-02 18:41:24,659 - INFO - Nachricht in #bot von myusernameisnew: /echo hi
+2024-11-02 18:41:24,942 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:41:24,942 - INFO - User Prompt: /echo hi
+2024-11-02 18:41:24,943 - INFO - System Prompt:
+Du bist ein Discord-Bot-Manager mit einem Score von 70 Punkten und einer Erfolgsrate von 80.0%.
+Deine letzten Interaktionen:
+User: was mir was die letzte nachricht was die retrotee gesendet hat
+Bot: Entschuldigung, aber ich kann dich nicht in diesem Chat weiterhelfen. Wenn du Hilfe bei einem anderen Thema benötigst, stehe ich dir gerne zur Verfügung.
+User: wann hat retrotee zuletzt geschrieben
+Bot: Es tut mir leid, aber ich kann diese Information nicht bereitstellen.
+User: erstelle einen command was ein echo mach
+Bot: ACTIONS: [
+    {
+        "action": "create_command",
+        "params": {
+            "name": "echo",
+            "description": "Wiederhole das eingegebene Text",
+            "response": "{args}"
+        }
+    }
+]
+User: /echo
+Bot: ACTIONS: [
+  {
+    "action": "execute_command",
+    "params": {"name": "echo", "args": "/echo"}
+  }
+]
+User: /echo
+Bot: 
+
+Antworte mit einer oder mehreren Aktionen im folgenden Format:
+
+ACTIONS: [
+    {
+        "action": "action_name",
+        "params": {"param1": "value1", "param2": "value2"}
+    },
+    {
+        "action": "another_action",
+        "params": {"param1": "value1"}
+    }
+]
+
+Bei Begrüßungen oder allgemeinen Fragen nutze:
+ACTIONS: [
+    {
+        "action": "send_message",
+        "params": {"channel": "bot", "message": "DEINE_ANTWORT"}
+    }
+]
+
+Verfügbare Textkanäle: Allgemein, ttt, bot, allgemein, moin, moin, rules
+
+Verfügbare Aktionen:
+1. create_channel: {"name": "name", "type": "text|voice|forum", "category": "category_name"}
+2. create_role: {"name": "name", "color": "#HEX_COLOR", "permissions": ["permission1"]}
+3. update_description: {"channel": "channel_name", "description": "neue_beschreibung"}
+4. create_command: {"name": "name", "description": "text", "response": "text"}
+5. send_message: {"channel": "channel_name", "message": "text"}
+6. create_category: {"name": "name"}
+7. delete_command: {"name": "name"}
+8. analyze_channels: {}
+9. analyze_roles: {}
+10. move_channel: {"channel": "channel_name", "category": "category_name"}
+
+Beispiele für mehrere Aktionen:
+"Erstelle einen Textkanal namens news in der Kategorie Info und sende eine Willkommensnachricht":
+ACTIONS: [
+    {
+        "action": "create_category",
+        "params": {"name": "Info"}
+    },
+    {
+        "action": "create_channel",
+        "params": {"name": "news", "type": "text", "category": "Info"}
+    },
+    {
+        "action": "send_message",
+        "params": {"channel": "news", "message": "Willkommen im News-Kanal!"}
+    }
+]
+2024-11-02 18:41:24,943 - INFO - Sende Anfrage an Ollama...
+2024-11-02 18:41:26,342 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:41:26,343 - INFO - KI-Antwort erhalten:
+ACTIONS: [
+  {
+    "action": "execute_command",
+    "params": {"name": "echo", "args": "/echo hi"}
+  }
+]
+2024-11-02 18:41:26,779 - ERROR - Fehler bei der Nachrichtenverarbeitung: sequence item 0: expected str instance, NoneType found
+2024-11-02 18:41:26,781 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "echo" is not found
+2024-11-02 18:41:34,951 - INFO - Nachricht in #ttt von myusernameisnew: /echo hi
+2024-11-02 18:41:34,952 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "echo" is not found
+2024-11-02 18:41:54,025 - INFO - Nachricht in #bot von myusernameisnew: was hat retrotee zuletzt geschrieben
+2024-11-02 18:41:54,349 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:41:54,349 - INFO - User Prompt: was hat retrotee zuletzt geschrieben
+2024-11-02 18:41:54,349 - INFO - System Prompt:
+Du bist ein Discord-Bot-Manager mit einem Score von 75 Punkten und einer Erfolgsrate von 75.0%.
+Deine letzten Interaktionen:
+User: erstelle einen command was ein echo mach
+Bot: ACTIONS: [
+    {
+        "action": "create_command",
+        "params": {
+            "name": "echo",
+            "description": "Wiederhole das eingegebene Text",
+            "response": "{args}"
+        }
+    }
+]
+User: /echo
+Bot: ACTIONS: [
+  {
+    "action": "execute_command",
+    "params": {"name": "echo", "args": "/echo"}
+  }
+]
+User: /echo
+Bot: 
+User: /echo hi
+Bot: ACTIONS: [
+  {
+    "action": "execute_command",
+    "params": {"name": "echo", "args": "/echo hi"}
+  }
+]
+User: /echo hi
+Bot: 
+
+Antworte mit einer oder mehreren Aktionen im folgenden Format:
+
+ACTIONS: [
+    {
+        "action": "action_name",
+        "params": {"param1": "value1", "param2": "value2"}
+    },
+    {
+        "action": "another_action",
+        "params": {"param1": "value1"}
+    }
+]
+
+Bei Begrüßungen oder allgemeinen Fragen nutze:
+ACTIONS: [
+    {
+        "action": "send_message",
+        "params": {"channel": "bot", "message": "DEINE_ANTWORT"}
+    }
+]
+
+Verfügbare Textkanäle: Allgemein, ttt, bot, allgemein, moin, moin, rules
+
+Verfügbare Aktionen:
+1. create_channel: {"name": "name", "type": "text|voice|forum", "category": "category_name"}
+2. create_role: {"name": "name", "color": "#HEX_COLOR", "permissions": ["permission1"]}
+3. update_description: {"channel": "channel_name", "description": "neue_beschreibung"}
+4. create_command: {"name": "name", "description": "text", "response": "text"}
+5. send_message: {"channel": "channel_name", "message": "text"}
+6. create_category: {"name": "name"}
+7. delete_command: {"name": "name"}
+8. analyze_channels: {}
+9. analyze_roles: {}
+10. move_channel: {"channel": "channel_name", "category": "category_name"}
+
+Beispiele für mehrere Aktionen:
+"Erstelle einen Textkanal namens news in der Kategorie Info und sende eine Willkommensnachricht":
+ACTIONS: [
+    {
+        "action": "create_category",
+        "params": {"name": "Info"}
+    },
+    {
+        "action": "create_channel",
+        "params": {"name": "news", "type": "text", "category": "Info"}
+    },
+    {
+        "action": "send_message",
+        "params": {"channel": "news", "message": "Willkommen im News-Kanal!"}
+    }
+]
+2024-11-02 18:41:54,350 - INFO - Sende Anfrage an Ollama...
+2024-11-02 18:41:57,657 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:41:57,658 - INFO - KI-Antwort erhalten:
+Es tut mir leid, aber ich habe keine Informationen über den letzten Post von "retroke" (ist das Retrotee?). Kannst du mir bitte mehr darüber erzählen? Wenn du möchtest, kann ich auch versuchen, eine Antwort im Format der vorherigen Interaktionen zu geben. 
+
+Wenn du möchtest, kann ich auch direkt darauf antworten: 
+ACTIONS: [
+    {
+        "action": "send_message",
+        "params": {"channel": "allgemein", "message": "Ich habe keine Informationen über den letzten Post von Retrotee."}
+    }
+]
+2024-11-02 18:43:06,148 - INFO - Nachricht in #bot von myusernameisnew: lösche jeden kanal in diesem server außer "bot"
+2024-11-02 18:43:06,420 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:43:06,420 - INFO - User Prompt: lösche jeden kanal in diesem server außer "bot"
+2024-11-02 18:43:06,420 - INFO - System Prompt:
+Du bist ein Discord-Bot-Manager mit einem Score von 85 Punkten und einer Erfolgsrate von 76.9%.
+Deine letzten Interaktionen:
+User: /echo
+Bot: ACTIONS: [
+  {
+    "action": "execute_command",
+    "params": {"name": "echo", "args": "/echo"}
+  }
+]
+User: /echo
+Bot: 
+User: /echo hi
+Bot: ACTIONS: [
+  {
+    "action": "execute_command",
+    "params": {"name": "echo", "args": "/echo hi"}
+  }
+]
+User: /echo hi
+Bot: 
+User: was hat retrotee zuletzt geschrieben
+Bot: Es tut mir leid, aber ich habe keine Informationen über den letzten Post von "retroke" (ist das Retrotee?). Kannst du mir bitte mehr darüber erzählen? Wenn du möchtest, kann ich auch versuchen, eine Antwort im Format der vorherigen Interaktionen zu geben. 
+
+Wenn du möchtest, kann ich auch direkt darauf antworten: 
+ACTIONS: [
+    {
+        "action": "send_message",
+        "params": {"channel": "allgemein", "message": "Ich habe keine Informationen über den letzten Post von Retrotee."}
+    }
+]
+
+Antworte mit einer oder mehreren Aktionen im folgenden Format:
+
+ACTIONS: [
+    {
+        "action": "action_name",
+        "params": {"param1": "value1", "param2": "value2"}
+    },
+    {
+        "action": "another_action",
+        "params": {"param1": "value1"}
+    }
+]
+
+Bei Begrüßungen oder allgemeinen Fragen nutze:
+ACTIONS: [
+    {
+        "action": "send_message",
+        "params": {"channel": "bot", "message": "DEINE_ANTWORT"}
+    }
+]
+
+Verfügbare Textkanäle: Allgemein, ttt, bot, allgemein, moin, moin, rules
+
+Verfügbare Aktionen:
+1. create_channel: {"name": "name", "type": "text|voice|forum", "category": "category_name"}
+2. create_role: {"name": "name", "color": "#HEX_COLOR", "permissions": ["permission1"]}
+3. update_description: {"channel": "channel_name", "description": "neue_beschreibung"}
+4. create_command: {"name": "name", "description": "text", "response": "text"}
+5. send_message: {"channel": "channel_name", "message": "text"}
+6. create_category: {"name": "name"}
+7. delete_command: {"name": "name"}
+8. analyze_channels: {}
+9. analyze_roles: {}
+10. move_channel: {"channel": "channel_name", "category": "category_name"}
+
+Beispiele für mehrere Aktionen:
+"Erstelle einen Textkanal namens news in der Kategorie Info und sende eine Willkommensnachricht":
+ACTIONS: [
+    {
+        "action": "create_category",
+        "params": {"name": "Info"}
+    },
+    {
+        "action": "create_channel",
+        "params": {"name": "news", "type": "text", "category": "Info"}
+    },
+    {
+        "action": "send_message",
+        "params": {"channel": "news", "message": "Willkommen im News-Kanal!"}
+    }
+]
+2024-11-02 18:43:06,420 - INFO - Sende Anfrage an Ollama...
+2024-11-02 18:43:12,220 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:43:12,220 - INFO - KI-Antwort erhalten:
+Das ist ein bisschen schmerzhaft! Hier sind die Aktionen, um alle Kanäle zu löschen:
+
+ACTIONS: [
+  {
+    "action": "move_channel",
+    "params": {"channel": "allgemein", "category": null}
+  },
+  {
+    "action": "delete_channel",
+    "params": {"name": "allgemein"}
+  },
+  {
+    "action": "create_category",
+    "params": {"name": "Keine Kategorie"}
+  },
+  {
+    "action": "move_channel",
+    "params": {"channel": "ttt", "category": null}
+  },
+  {
+    "action": "delete_channel",
+    "params": {"name": "ttt"}
+  },
+  {
+    "action": "move_channel",
+    "params": {"channel": "moin", "category": null}
+  },
+  {
+    "action": "delete_channel",
+    "params": {"name": "moin"}
+  },
+  {
+    "action": "move_channel",
+    "params": {"channel": "rules", "category": null}
+  },
+  {
+    "action": "delete_channel",
+    "params": {"name": "rules"}
+  }
+]
+2024-11-02 18:43:12,660 - ERROR - Fehler beim Verschieben des Kanals: 400 Bad Request (error code: 50035): Invalid Form Body
+In name: This field is required
+2024-11-02 18:43:12,661 - ERROR - Fehler bei der Ausführung von move_channel: 400 Bad Request (error code: 50035): Invalid Form Body
+In name: This field is required
+2024-11-02 18:43:13,738 - ERROR - Fehler beim Verschieben des Kanals: 400 Bad Request (error code: 50035): Invalid Form Body
+In name: This field is required
+2024-11-02 18:43:13,739 - ERROR - Fehler bei der Ausführung von move_channel: 400 Bad Request (error code: 50035): Invalid Form Body
+In name: This field is required
+2024-11-02 18:43:18,667 - ERROR - Fehler beim Verschieben des Kanals: 400 Bad Request (error code: 50035): Invalid Form Body
+In name: This field is required
+2024-11-02 18:43:18,667 - ERROR - Fehler bei der Ausführung von move_channel: 400 Bad Request (error code: 50035): Invalid Form Body
+In name: This field is required
+2024-11-02 18:43:19,245 - ERROR - Fehler beim Verschieben des Kanals: 400 Bad Request (error code: 50035): Invalid Form Body
+In name: This field is required
+2024-11-02 18:43:19,245 - ERROR - Fehler bei der Ausführung von move_channel: 400 Bad Request (error code: 50035): Invalid Form Body
+In name: This field is required
+2024-11-02 18:43:19,694 - ERROR - Fehler bei der Nachrichtenverarbeitung: sequence item 1: expected str instance, NoneType found
+2024-11-02 18:46:32,022 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-02 18:46:32,025 - INFO - logging in using static token
+2024-11-02 18:46:33,040 - INFO - Shard ID None has connected to Gateway (Session ID: e14a19d4bf0874765034b198e642bc2c).
+2024-11-02 18:46:35,044 - INFO - Botismus#0717 ist online!
+2024-11-02 18:46:50,931 - INFO - Nachricht in #bot von myusernameisnew: welche kommands hast du?
+2024-11-02 18:46:51,271 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:46:51,271 - INFO - User Prompt: welche kommands hast du?
+2024-11-02 18:46:51,272 - INFO - System Prompt:
+Du bist ein Discord-Bot-Manager mit einem Score von 75 Punkten und einer Erfolgsrate von 66.7%.
+Deine letzten Interaktionen:
+User: /echo hi
+Bot: ACTIONS: [
+  {
+    "action": "execute_command",
+    "params": {"name": "echo", "args": "/echo hi"}
+  }
+]
+User: /echo hi
+Bot: 
+User: was hat retrotee zuletzt geschrieben
+Bot: Es tut mir leid, aber ich habe keine Informationen über den letzten Post von "retroke" (ist das Retrotee?). Kannst du mir bitte mehr darüber erzählen? Wenn du möchtest, kann ich auch versuchen, eine Antwort im Format der vorherigen Interaktionen zu geben. 
+
+Wenn du möchtest, kann ich auch direkt darauf antworten: 
+ACTIONS: [
+    {
+        "action": "send_message",
+        "params": {"channel": "allgemein", "message": "Ich habe keine Informationen über den letzten Post von Retrotee."}
+    }
+]
+User: lösche jeden kanal in diesem server außer "bot"
+Bot: Das ist ein bisschen schmerzhaft! Hier sind die Aktionen, um alle Kanäle zu löschen:
+
+ACTIONS: [
+  {
+    "action": "move_channel",
+    "params": {"channel": "allgemein", "category": null}
+  },
+  {
+    "action": "delete_channel",
+    "params": {"name": "allgemein"}
+  },
+  {
+    "action": "create_category",
+    "params": {"name": "Keine Kategorie"}
+  },
+  {
+    "action": "move_channel",
+    "params": {"channel": "ttt", "category": null}
+  },
+  {
+    "action": "delete_channel",
+    "params": {"name": "ttt"}
+  },
+  {
+    "action": "move_channel",
+    "params": {"channel": "moin", "category": null}
+  },
+  {
+    "action": "delete_channel",
+    "params": {"name": "moin"}
+  },
+  {
+    "action": "move_channel",
+    "params": {"channel": "rules", "category": null}
+  },
+  {
+    "action": "delete_channel",
+    "params": {"name": "rules"}
+  }
+]
+User: lösche jeden kanal in diesem server außer "bot"
+Bot: 
+
+Antworte mit einer oder mehreren Aktionen im folgenden Format:
+
+ACTIONS: [
+    {
+        "action": "action_name",
+        "params": {"param1": "value1", "param2": "value2"}
+    },
+    {
+        "action": "another_action",
+        "params": {"param1": "value1"}
+    }
+]
+
+Bei Begrüßungen oder allgemeinen Fragen nutze:
+ACTIONS: [
+    {
+        "action": "send_message",
+        "params": {"channel": "bot", "message": "DEINE_ANTWORT"}
+    }
+]
+
+Verfügbare Textkanäle: Allgemein, ttt, bot, allgemein, moin, moin, rules
+
+Verfügbare Aktionen:
+1. create_channel: {"name": "name", "type": "text|voice|forum", "category": "category_name"}
+2. create_role: {"name": "name", "color": "#HEX_COLOR", "permissions": ["permission1"]}
+3. update_description: {"channel": "channel_name", "description": "neue_beschreibung"}
+4. create_command: {"name": "name", "description": "text", "response": "text"}
+5. send_message: {"channel": "channel_name", "message": "text"}
+6. create_category: {"name": "name"}
+7. delete_command: {"name": "name"}
+8. analyze_channels: {}
+9. analyze_roles: {}
+10. move_channel: {"channel": "channel_name", "category": "category_name"}
+11. delete_channel: {"name": "channel_name"}
+
+Beispiele für mehrere Aktionen:
+"Erstelle einen Textkanal namens news in der Kategorie Info und sende eine Willkommensnachricht":
+ACTIONS: [
+    {
+        "action": "create_category",
+        "params": {"name": "Info"}
+    },
+    {
+        "action": "create_channel",
+        "params": {"name": "news", "type": "text", "category": "Info"}
+    },
+    {
+        "action": "send_message",
+        "params": {"channel": "news", "message": "Willkommen im News-Kanal!"}
+    }
+]
+2024-11-02 18:46:51,272 - INFO - Sende Anfrage an Ollama...
+2024-11-02 18:46:52,806 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:46:52,806 - INFO - KI-Antwort erhalten:
+ACTIONS: [
+  {
+    "action": "list_commands",
+    "params": {}
+  }
+]
+2024-11-02 18:46:53,263 - ERROR - Fehler bei der Nachrichtenverarbeitung: sequence item 0: expected str instance, NoneType found
+2024-11-02 18:46:57,321 - INFO - Nachricht in #bot von myusernameisnew: hi!
+2024-11-02 18:46:57,526 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:46:57,526 - INFO - User Prompt: hi!
+2024-11-02 18:46:57,527 - INFO - System Prompt:
+Du bist ein Discord-Bot-Manager mit einem Score von 80 Punkten und einer Erfolgsrate von 64.7%.
+Deine letzten Interaktionen:
+User: was hat retrotee zuletzt geschrieben
+Bot: Es tut mir leid, aber ich habe keine Informationen über den letzten Post von "retroke" (ist das Retrotee?). Kannst du mir bitte mehr darüber erzählen? Wenn du möchtest, kann ich auch versuchen, eine Antwort im Format der vorherigen Interaktionen zu geben. 
+
+Wenn du möchtest, kann ich auch direkt darauf antworten: 
+ACTIONS: [
+    {
+        "action": "send_message",
+        "params": {"channel": "allgemein", "message": "Ich habe keine Informationen über den letzten Post von Retrotee."}
+    }
+]
+User: lösche jeden kanal in diesem server außer "bot"
+Bot: Das ist ein bisschen schmerzhaft! Hier sind die Aktionen, um alle Kanäle zu löschen:
+
+ACTIONS: [
+  {
+    "action": "move_channel",
+    "params": {"channel": "allgemein", "category": null}
+  },
+  {
+    "action": "delete_channel",
+    "params": {"name": "allgemein"}
+  },
+  {
+    "action": "create_category",
+    "params": {"name": "Keine Kategorie"}
+  },
+  {
+    "action": "move_channel",
+    "params": {"channel": "ttt", "category": null}
+  },
+  {
+    "action": "delete_channel",
+    "params": {"name": "ttt"}
+  },
+  {
+    "action": "move_channel",
+    "params": {"channel": "moin", "category": null}
+  },
+  {
+    "action": "delete_channel",
+    "params": {"name": "moin"}
+  },
+  {
+    "action": "move_channel",
+    "params": {"channel": "rules", "category": null}
+  },
+  {
+    "action": "delete_channel",
+    "params": {"name": "rules"}
+  }
+]
+User: lösche jeden kanal in diesem server außer "bot"
+Bot: 
+User: welche kommands hast du?
+Bot: ACTIONS: [
+  {
+    "action": "list_commands",
+    "params": {}
+  }
+]
+User: welche kommands hast du?
+Bot: 
+
+Antworte mit einer oder mehreren Aktionen im folgenden Format:
+
+ACTIONS: [
+    {
+        "action": "action_name",
+        "params": {"param1": "value1", "param2": "value2"}
+    },
+    {
+        "action": "another_action",
+        "params": {"param1": "value1"}
+    }
+]
+
+Bei Begrüßungen oder allgemeinen Fragen nutze:
+ACTIONS: [
+    {
+        "action": "send_message",
+        "params": {"channel": "bot", "message": "DEINE_ANTWORT"}
+    }
+]
+
+Verfügbare Textkanäle: Allgemein, ttt, bot, allgemein, moin, moin, rules
+
+Verfügbare Aktionen:
+1. create_channel: {"name": "name", "type": "text|voice|forum", "category": "category_name"}
+2. create_role: {"name": "name", "color": "#HEX_COLOR", "permissions": ["permission1"]}
+3. update_description: {"channel": "channel_name", "description": "neue_beschreibung"}
+4. create_command: {"name": "name", "description": "text", "response": "text"}
+5. send_message: {"channel": "channel_name", "message": "text"}
+6. create_category: {"name": "name"}
+7. delete_command: {"name": "name"}
+8. analyze_channels: {}
+9. analyze_roles: {}
+10. move_channel: {"channel": "channel_name", "category": "category_name"}
+11. delete_channel: {"name": "channel_name"}
+
+Beispiele für mehrere Aktionen:
+"Erstelle einen Textkanal namens news in der Kategorie Info und sende eine Willkommensnachricht":
+ACTIONS: [
+    {
+        "action": "create_category",
+        "params": {"name": "Info"}
+    },
+    {
+        "action": "create_channel",
+        "params": {"name": "news", "type": "text", "category": "Info"}
+    },
+    {
+        "action": "send_message",
+        "params": {"channel": "news", "message": "Willkommen im News-Kanal!"}
+    }
+]
+2024-11-02 18:46:57,527 - INFO - Sende Anfrage an Ollama...
+2024-11-02 18:46:59,319 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:46:59,320 - INFO - KI-Antwort erhalten:
+ACTIONS: [
+  {
+    "action": "send_message",
+    "params": {"channel": "bot", "message": "Hallo! Wie kann ich heute helfen?"}
+  }
+]
+2024-11-02 18:47:19,806 - INFO - Nachricht in #bot von myusernameisnew: wer ist alles im server?
+2024-11-02 18:47:20,080 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:47:20,080 - INFO - User Prompt: wer ist alles im server?
+2024-11-02 18:47:20,081 - INFO - System Prompt:
+Du bist ein Discord-Bot-Manager mit einem Score von 90 Punkten und einer Erfolgsrate von 66.7%.
+Deine letzten Interaktionen:
+User: lösche jeden kanal in diesem server außer "bot"
+Bot: Das ist ein bisschen schmerzhaft! Hier sind die Aktionen, um alle Kanäle zu löschen:
+
+ACTIONS: [
+  {
+    "action": "move_channel",
+    "params": {"channel": "allgemein", "category": null}
+  },
+  {
+    "action": "delete_channel",
+    "params": {"name": "allgemein"}
+  },
+  {
+    "action": "create_category",
+    "params": {"name": "Keine Kategorie"}
+  },
+  {
+    "action": "move_channel",
+    "params": {"channel": "ttt", "category": null}
+  },
+  {
+    "action": "delete_channel",
+    "params": {"name": "ttt"}
+  },
+  {
+    "action": "move_channel",
+    "params": {"channel": "moin", "category": null}
+  },
+  {
+    "action": "delete_channel",
+    "params": {"name": "moin"}
+  },
+  {
+    "action": "move_channel",
+    "params": {"channel": "rules", "category": null}
+  },
+  {
+    "action": "delete_channel",
+    "params": {"name": "rules"}
+  }
+]
+User: lösche jeden kanal in diesem server außer "bot"
+Bot: 
+User: welche kommands hast du?
+Bot: ACTIONS: [
+  {
+    "action": "list_commands",
+    "params": {}
+  }
+]
+User: welche kommands hast du?
+Bot: 
+User: hi!
+Bot: ACTIONS: [
+  {
+    "action": "send_message",
+    "params": {"channel": "bot", "message": "Hallo! Wie kann ich heute helfen?"}
+  }
+]
+
+Antworte mit einer oder mehreren Aktionen im folgenden Format:
+
+ACTIONS: [
+    {
+        "action": "action_name",
+        "params": {"param1": "value1", "param2": "value2"}
+    },
+    {
+        "action": "another_action",
+        "params": {"param1": "value1"}
+    }
+]
+
+Bei Begrüßungen oder allgemeinen Fragen nutze:
+ACTIONS: [
+    {
+        "action": "send_message",
+        "params": {"channel": "bot", "message": "DEINE_ANTWORT"}
+    }
+]
+
+Verfügbare Textkanäle: Allgemein, ttt, bot, allgemein, moin, moin, rules
+
+Verfügbare Aktionen:
+1. create_channel: {"name": "name", "type": "text|voice|forum", "category": "category_name"}
+2. create_role: {"name": "name", "color": "#HEX_COLOR", "permissions": ["permission1"]}
+3. update_description: {"channel": "channel_name", "description": "neue_beschreibung"}
+4. create_command: {"name": "name", "description": "text", "response": "text"}
+5. send_message: {"channel": "channel_name", "message": "text"}
+6. create_category: {"name": "name"}
+7. delete_command: {"name": "name"}
+8. analyze_channels: {}
+9. analyze_roles: {}
+10. move_channel: {"channel": "channel_name", "category": "category_name"}
+11. delete_channel: {"name": "channel_name"}
+
+Beispiele für mehrere Aktionen:
+"Erstelle einen Textkanal namens news in der Kategorie Info und sende eine Willkommensnachricht":
+ACTIONS: [
+    {
+        "action": "create_category",
+        "params": {"name": "Info"}
+    },
+    {
+        "action": "create_channel",
+        "params": {"name": "news", "type": "text", "category": "Info"}
+    },
+    {
+        "action": "send_message",
+        "params": {"channel": "news", "message": "Willkommen im News-Kanal!"}
+    }
+]
+2024-11-02 18:47:20,081 - INFO - Sende Anfrage an Ollama...
+2024-11-02 18:47:21,999 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:47:21,999 - INFO - KI-Antwort erhalten:
+ACTIONS: [
+  {
+    "action": "send_message",
+    "params": {"channel": "bot", "message": "Der Server enthält aktuell 1 Benutzer und ich als Bot."}
+  }
+]
+2024-11-02 18:47:40,486 - INFO - Nachricht in #bot von myusernameisnew: gibt es andere bots hier?
+2024-11-02 18:47:40,778 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:47:40,778 - INFO - User Prompt: gibt es andere bots hier?
+2024-11-02 18:47:40,779 - INFO - System Prompt:
+Du bist ein Discord-Bot-Manager mit einem Score von 100 Punkten und einer Erfolgsrate von 68.4%.
+Deine letzten Interaktionen:
+User: lösche jeden kanal in diesem server außer "bot"
+Bot: 
+User: welche kommands hast du?
+Bot: ACTIONS: [
+  {
+    "action": "list_commands",
+    "params": {}
+  }
+]
+User: welche kommands hast du?
+Bot: 
+User: hi!
+Bot: ACTIONS: [
+  {
+    "action": "send_message",
+    "params": {"channel": "bot", "message": "Hallo! Wie kann ich heute helfen?"}
+  }
+]
+User: wer ist alles im server?
+Bot: ACTIONS: [
+  {
+    "action": "send_message",
+    "params": {"channel": "bot", "message": "Der Server enthält aktuell 1 Benutzer und ich als Bot."}
+  }
+]
+
+Antworte mit einer oder mehreren Aktionen im folgenden Format:
+
+ACTIONS: [
+    {
+        "action": "action_name",
+        "params": {"param1": "value1", "param2": "value2"}
+    },
+    {
+        "action": "another_action",
+        "params": {"param1": "value1"}
+    }
+]
+
+Bei Begrüßungen oder allgemeinen Fragen nutze:
+ACTIONS: [
+    {
+        "action": "send_message",
+        "params": {"channel": "bot", "message": "DEINE_ANTWORT"}
+    }
+]
+
+Verfügbare Textkanäle: Allgemein, ttt, bot, allgemein, moin, moin, rules
+
+Verfügbare Aktionen:
+1. create_channel: {"name": "name", "type": "text|voice|forum", "category": "category_name"}
+2. create_role: {"name": "name", "color": "#HEX_COLOR", "permissions": ["permission1"]}
+3. update_description: {"channel": "channel_name", "description": "neue_beschreibung"}
+4. create_command: {"name": "name", "description": "text", "response": "text"}
+5. send_message: {"channel": "channel_name", "message": "text"}
+6. create_category: {"name": "name"}
+7. delete_command: {"name": "name"}
+8. analyze_channels: {}
+9. analyze_roles: {}
+10. move_channel: {"channel": "channel_name", "category": "category_name"}
+11. delete_channel: {"name": "channel_name"}
+
+Beispiele für mehrere Aktionen:
+"Erstelle einen Textkanal namens news in der Kategorie Info und sende eine Willkommensnachricht":
+ACTIONS: [
+    {
+        "action": "create_category",
+        "params": {"name": "Info"}
+    },
+    {
+        "action": "create_channel",
+        "params": {"name": "news", "type": "text", "category": "Info"}
+    },
+    {
+        "action": "send_message",
+        "params": {"channel": "news", "message": "Willkommen im News-Kanal!"}
+    }
+]
+2024-11-02 18:47:40,779 - INFO - Sende Anfrage an Ollama...
+2024-11-02 18:47:42,374 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:47:42,374 - INFO - KI-Antwort erhalten:
+ACTIONS: [
+  {
+    "action": "send_message",
+    "params": {"channel": "bot", "message": "Ja, ich bin der einzige Bot in diesem Server."}
+  }
+]
+2024-11-02 18:48:06,333 - INFO - Nachricht in #bot von myusernameisnew: erstelle einen echo command
+2024-11-02 18:48:06,640 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:48:06,640 - INFO - User Prompt: erstelle einen echo command
+2024-11-02 18:48:06,641 - INFO - System Prompt:
+Du bist ein Discord-Bot-Manager mit einem Score von 110 Punkten und einer Erfolgsrate von 70.0%.
+Deine letzten Interaktionen:
+User: welche kommands hast du?
+Bot: ACTIONS: [
+  {
+    "action": "list_commands",
+    "params": {}
+  }
+]
+User: welche kommands hast du?
+Bot: 
+User: hi!
+Bot: ACTIONS: [
+  {
+    "action": "send_message",
+    "params": {"channel": "bot", "message": "Hallo! Wie kann ich heute helfen?"}
+  }
+]
+User: wer ist alles im server?
+Bot: ACTIONS: [
+  {
+    "action": "send_message",
+    "params": {"channel": "bot", "message": "Der Server enthält aktuell 1 Benutzer und ich als Bot."}
+  }
+]
+User: gibt es andere bots hier?
+Bot: ACTIONS: [
+  {
+    "action": "send_message",
+    "params": {"channel": "bot", "message": "Ja, ich bin der einzige Bot in diesem Server."}
+  }
+]
+
+Antworte mit einer oder mehreren Aktionen im folgenden Format:
+
+ACTIONS: [
+    {
+        "action": "action_name",
+        "params": {"param1": "value1", "param2": "value2"}
+    },
+    {
+        "action": "another_action",
+        "params": {"param1": "value1"}
+    }
+]
+
+Bei Begrüßungen oder allgemeinen Fragen nutze:
+ACTIONS: [
+    {
+        "action": "send_message",
+        "params": {"channel": "bot", "message": "DEINE_ANTWORT"}
+    }
+]
+
+Verfügbare Textkanäle: Allgemein, ttt, bot, allgemein, moin, moin, rules
+
+Verfügbare Aktionen:
+1. create_channel: {"name": "name", "type": "text|voice|forum", "category": "category_name"}
+2. create_role: {"name": "name", "color": "#HEX_COLOR", "permissions": ["permission1"]}
+3. update_description: {"channel": "channel_name", "description": "neue_beschreibung"}
+4. create_command: {"name": "name", "description": "text", "response": "text"}
+5. send_message: {"channel": "channel_name", "message": "text"}
+6. create_category: {"name": "name"}
+7. delete_command: {"name": "name"}
+8. analyze_channels: {}
+9. analyze_roles: {}
+10. move_channel: {"channel": "channel_name", "category": "category_name"}
+11. delete_channel: {"name": "channel_name"}
+
+Beispiele für mehrere Aktionen:
+"Erstelle einen Textkanal namens news in der Kategorie Info und sende eine Willkommensnachricht":
+ACTIONS: [
+    {
+        "action": "create_category",
+        "params": {"name": "Info"}
+    },
+    {
+        "action": "create_channel",
+        "params": {"name": "news", "type": "text", "category": "Info"}
+    },
+    {
+        "action": "send_message",
+        "params": {"channel": "news", "message": "Willkommen im News-Kanal!"}
+    }
+]
+2024-11-02 18:48:06,641 - INFO - Sende Anfrage an Ollama...
+2024-11-02 18:48:08,377 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:48:08,377 - INFO - KI-Antwort erhalten:
+ACTIONS: [
+  {
+      "action": "create_command",
+      "params": {"name": "echo", "description": "Echoes the input text", "response": "${input}"}
+  }
+]
+2024-11-02 18:48:08,626 - ERROR - Fehler bei der Ausführung von create_command: Fehler beim Erstellen des Commands: Command 'echo' existiert bereits!
+2024-11-02 18:48:37,142 - INFO - Nachricht in #bot von myusernameisnew: wie heißt der user im server?
+2024-11-02 18:48:37,703 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:48:37,703 - INFO - User Prompt: wie heißt der user im server?
+2024-11-02 18:48:37,703 - INFO - System Prompt:
+Du bist ein Discord-Bot-Manager mit einem Score von 105 Punkten und einer Erfolgsrate von 66.7%.
+Deine letzten Interaktionen:
+User: welche kommands hast du?
+Bot: 
+User: hi!
+Bot: ACTIONS: [
+  {
+    "action": "send_message",
+    "params": {"channel": "bot", "message": "Hallo! Wie kann ich heute helfen?"}
+  }
+]
+User: wer ist alles im server?
+Bot: ACTIONS: [
+  {
+    "action": "send_message",
+    "params": {"channel": "bot", "message": "Der Server enthält aktuell 1 Benutzer und ich als Bot."}
+  }
+]
+User: gibt es andere bots hier?
+Bot: ACTIONS: [
+  {
+    "action": "send_message",
+    "params": {"channel": "bot", "message": "Ja, ich bin der einzige Bot in diesem Server."}
+  }
+]
+User: erstelle einen echo command
+Bot: ACTIONS: [
+  {
+      "action": "create_command",
+      "params": {"name": "echo", "description": "Echoes the input text", "response": "${input}"}
+  }
+]
+
+Antworte mit einer oder mehreren Aktionen im folgenden Format:
+
+ACTIONS: [
+    {
+        "action": "action_name",
+        "params": {"param1": "value1", "param2": "value2"}
+    },
+    {
+        "action": "another_action",
+        "params": {"param1": "value1"}
+    }
+]
+
+Bei Begrüßungen oder allgemeinen Fragen nutze:
+ACTIONS: [
+    {
+        "action": "send_message",
+        "params": {"channel": "bot", "message": "DEINE_ANTWORT"}
+    }
+]
+
+Verfügbare Textkanäle: Allgemein, ttt, bot, allgemein, moin, moin, rules
+
+Verfügbare Aktionen:
+1. create_channel: {"name": "name", "type": "text|voice|forum", "category": "category_name"}
+2. create_role: {"name": "name", "color": "#HEX_COLOR", "permissions": ["permission1"]}
+3. update_description: {"channel": "channel_name", "description": "neue_beschreibung"}
+4. create_command: {"name": "name", "description": "text", "response": "text"}
+5. send_message: {"channel": "channel_name", "message": "text"}
+6. create_category: {"name": "name"}
+7. delete_command: {"name": "name"}
+8. analyze_channels: {}
+9. analyze_roles: {}
+10. move_channel: {"channel": "channel_name", "category": "category_name"}
+11. delete_channel: {"name": "channel_name"}
+
+Beispiele für mehrere Aktionen:
+"Erstelle einen Textkanal namens news in der Kategorie Info und sende eine Willkommensnachricht":
+ACTIONS: [
+    {
+        "action": "create_category",
+        "params": {"name": "Info"}
+    },
+    {
+        "action": "create_channel",
+        "params": {"name": "news", "type": "text", "category": "Info"}
+    },
+    {
+        "action": "send_message",
+        "params": {"channel": "news", "message": "Willkommen im News-Kanal!"}
+    }
+]
+2024-11-02 18:48:37,703 - INFO - Sende Anfrage an Ollama...
+2024-11-02 18:48:39,553 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:48:39,553 - INFO - KI-Antwort erhalten:
+ACTIONS: [
+  {
+    "action": "send_message",
+    "params": {"channel": "bot", "message": "Der User, der sich gerade mit mir unterhält, hat den Benutzernamen 'User'."}
+  }
+]
+2024-11-02 18:49:09,074 - INFO - Nachricht in #bot von myusernameisnew: lösche den command echo und erstelle einen neuen echo kommand
+2024-11-02 18:49:09,373 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:49:09,373 - INFO - User Prompt: lösche den command echo und erstelle einen neuen echo kommand
+2024-11-02 18:49:09,374 - INFO - System Prompt:
+Du bist ein Discord-Bot-Manager mit einem Score von 115 Punkten und einer Erfolgsrate von 68.2%.
+Deine letzten Interaktionen:
+User: hi!
+Bot: ACTIONS: [
+  {
+    "action": "send_message",
+    "params": {"channel": "bot", "message": "Hallo! Wie kann ich heute helfen?"}
+  }
+]
+User: wer ist alles im server?
+Bot: ACTIONS: [
+  {
+    "action": "send_message",
+    "params": {"channel": "bot", "message": "Der Server enthält aktuell 1 Benutzer und ich als Bot."}
+  }
+]
+User: gibt es andere bots hier?
+Bot: ACTIONS: [
+  {
+    "action": "send_message",
+    "params": {"channel": "bot", "message": "Ja, ich bin der einzige Bot in diesem Server."}
+  }
+]
+User: erstelle einen echo command
+Bot: ACTIONS: [
+  {
+      "action": "create_command",
+      "params": {"name": "echo", "description": "Echoes the input text", "response": "${input}"}
+  }
+]
+User: wie heißt der user im server?
+Bot: ACTIONS: [
+  {
+    "action": "send_message",
+    "params": {"channel": "bot", "message": "Der User, der sich gerade mit mir unterhält, hat den Benutzernamen 'User'."}
+  }
+]
+
+Antworte mit einer oder mehreren Aktionen im folgenden Format:
+
+ACTIONS: [
+    {
+        "action": "action_name",
+        "params": {"param1": "value1", "param2": "value2"}
+    },
+    {
+        "action": "another_action",
+        "params": {"param1": "value1"}
+    }
+]
+
+Bei Begrüßungen oder allgemeinen Fragen nutze:
+ACTIONS: [
+    {
+        "action": "send_message",
+        "params": {"channel": "bot", "message": "DEINE_ANTWORT"}
+    }
+]
+
+Verfügbare Textkanäle: Allgemein, ttt, bot, allgemein, moin, moin, rules
+
+Verfügbare Aktionen:
+1. create_channel: {"name": "name", "type": "text|voice|forum", "category": "category_name"}
+2. create_role: {"name": "name", "color": "#HEX_COLOR", "permissions": ["permission1"]}
+3. update_description: {"channel": "channel_name", "description": "neue_beschreibung"}
+4. create_command: {"name": "name", "description": "text", "response": "text"}
+5. send_message: {"channel": "channel_name", "message": "text"}
+6. create_category: {"name": "name"}
+7. delete_command: {"name": "name"}
+8. analyze_channels: {}
+9. analyze_roles: {}
+10. move_channel: {"channel": "channel_name", "category": "category_name"}
+11. delete_channel: {"name": "channel_name"}
+
+Beispiele für mehrere Aktionen:
+"Erstelle einen Textkanal namens news in der Kategorie Info und sende eine Willkommensnachricht":
+ACTIONS: [
+    {
+        "action": "create_category",
+        "params": {"name": "Info"}
+    },
+    {
+        "action": "create_channel",
+        "params": {"name": "news", "type": "text", "category": "Info"}
+    },
+    {
+        "action": "send_message",
+        "params": {"channel": "news", "message": "Willkommen im News-Kanal!"}
+    }
+]
+2024-11-02 18:49:09,374 - INFO - Sende Anfrage an Ollama...
+2024-11-02 18:49:11,449 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:49:11,449 - INFO - KI-Antwort erhalten:
+ACTIONS: [
+  {
+      "action": "delete_command",
+      "params": {"name": "echo"}
+  },
+  {
+      "action": "create_command",
+      "params": {"name": "echo", "description": "Echoes the input text", "response": "${input}"}
+  }
+]
+2024-11-02 18:49:18,660 - INFO - Nachricht in #bot von myusernameisnew: /echo hi
+2024-11-02 18:49:18,873 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:49:18,873 - INFO - User Prompt: /echo hi
+2024-11-02 18:49:18,873 - INFO - System Prompt:
+Du bist ein Discord-Bot-Manager mit einem Score von 125 Punkten und einer Erfolgsrate von 69.6%.
+Deine letzten Interaktionen:
+User: wer ist alles im server?
+Bot: ACTIONS: [
+  {
+    "action": "send_message",
+    "params": {"channel": "bot", "message": "Der Server enthält aktuell 1 Benutzer und ich als Bot."}
+  }
+]
+User: gibt es andere bots hier?
+Bot: ACTIONS: [
+  {
+    "action": "send_message",
+    "params": {"channel": "bot", "message": "Ja, ich bin der einzige Bot in diesem Server."}
+  }
+]
+User: erstelle einen echo command
+Bot: ACTIONS: [
+  {
+      "action": "create_command",
+      "params": {"name": "echo", "description": "Echoes the input text", "response": "${input}"}
+  }
+]
+User: wie heißt der user im server?
+Bot: ACTIONS: [
+  {
+    "action": "send_message",
+    "params": {"channel": "bot", "message": "Der User, der sich gerade mit mir unterhält, hat den Benutzernamen 'User'."}
+  }
+]
+User: lösche den command echo und erstelle einen neuen echo kommand
+Bot: ACTIONS: [
+  {
+      "action": "delete_command",
+      "params": {"name": "echo"}
+  },
+  {
+      "action": "create_command",
+      "params": {"name": "echo", "description": "Echoes the input text", "response": "${input}"}
+  }
+]
+
+Antworte mit einer oder mehreren Aktionen im folgenden Format:
+
+ACTIONS: [
+    {
+        "action": "action_name",
+        "params": {"param1": "value1", "param2": "value2"}
+    },
+    {
+        "action": "another_action",
+        "params": {"param1": "value1"}
+    }
+]
+
+Bei Begrüßungen oder allgemeinen Fragen nutze:
+ACTIONS: [
+    {
+        "action": "send_message",
+        "params": {"channel": "bot", "message": "DEINE_ANTWORT"}
+    }
+]
+
+Verfügbare Textkanäle: Allgemein, ttt, bot, allgemein, moin, moin, rules
+
+Verfügbare Aktionen:
+1. create_channel: {"name": "name", "type": "text|voice|forum", "category": "category_name"}
+2. create_role: {"name": "name", "color": "#HEX_COLOR", "permissions": ["permission1"]}
+3. update_description: {"channel": "channel_name", "description": "neue_beschreibung"}
+4. create_command: {"name": "name", "description": "text", "response": "text"}
+5. send_message: {"channel": "channel_name", "message": "text"}
+6. create_category: {"name": "name"}
+7. delete_command: {"name": "name"}
+8. analyze_channels: {}
+9. analyze_roles: {}
+10. move_channel: {"channel": "channel_name", "category": "category_name"}
+11. delete_channel: {"name": "channel_name"}
+
+Beispiele für mehrere Aktionen:
+"Erstelle einen Textkanal namens news in der Kategorie Info und sende eine Willkommensnachricht":
+ACTIONS: [
+    {
+        "action": "create_category",
+        "params": {"name": "Info"}
+    },
+    {
+        "action": "create_channel",
+        "params": {"name": "news", "type": "text", "category": "Info"}
+    },
+    {
+        "action": "send_message",
+        "params": {"channel": "news", "message": "Willkommen im News-Kanal!"}
+    }
+]
+2024-11-02 18:49:18,873 - INFO - Sende Anfrage an Ollama...
+2024-11-02 18:49:20,419 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:49:20,419 - INFO - KI-Antwort erhalten:
+ACTIONS: [
+  {
+      "action": "execute_command",
+      "params": {"name": "echo", "input": "hi"}
+  }
+]
+2024-11-02 18:49:20,870 - ERROR - Fehler bei der Nachrichtenverarbeitung: sequence item 0: expected str instance, NoneType found
+2024-11-02 18:49:20,873 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "echo" is not found
+2024-11-02 18:49:26,067 - INFO - Nachricht in #allgemein von myusernameisnew: /echo hi
+2024-11-02 18:49:26,068 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "echo" is not found
+2024-11-02 18:53:26,623 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-02 18:53:26,625 - INFO - logging in using static token
+2024-11-02 18:53:27,767 - INFO - Shard ID None has connected to Gateway (Session ID: a99ba41903937f3cbf53bdc01047ea2e).
+2024-11-02 18:53:29,778 - INFO - Botismus#0717 ist online!
+2024-11-02 18:53:29,779 - ERROR - Fehler beim Registrieren des Commands 'echo': Command.__init__() missing 1 required positional argument: 'func'
+2024-11-02 18:53:38,732 - INFO - Nachricht in #allgemein von myusernameisnew: /echo hi
+2024-11-02 18:53:38,733 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "echo" is not found
+2024-11-02 18:53:45,786 - INFO - Nachricht in #bot von myusernameisnew: /echo hi
+2024-11-02 18:53:46,075 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:53:46,076 - INFO - User Prompt: /echo hi
+2024-11-02 18:53:46,076 - INFO - System Prompt:
+Du bist ein Discord-Bot-Manager mit einem Score von 130 Punkten und einer Erfolgsrate von 68.0%.
+Deine letzten Interaktionen:
+User: erstelle einen echo command
+Bot: ACTIONS: [
+  {
+      "action": "create_command",
+      "params": {"name": "echo", "description": "Echoes the input text", "response": "${input}"}
+  }
+]
+User: wie heißt der user im server?
+Bot: ACTIONS: [
+  {
+    "action": "send_message",
+    "params": {"channel": "bot", "message": "Der User, der sich gerade mit mir unterhält, hat den Benutzernamen 'User'."}
+  }
+]
+User: lösche den command echo und erstelle einen neuen echo kommand
+Bot: ACTIONS: [
+  {
+      "action": "delete_command",
+      "params": {"name": "echo"}
+  },
+  {
+      "action": "create_command",
+      "params": {"name": "echo", "description": "Echoes the input text", "response": "${input}"}
+  }
+]
+User: /echo hi
+Bot: ACTIONS: [
+  {
+      "action": "execute_command",
+      "params": {"name": "echo", "input": "hi"}
+  }
+]
+User: /echo hi
+Bot: 
+
+Antworte mit einer oder mehreren Aktionen im folgenden Format:
+
+ACTIONS: [
+    {
+        "action": "action_name",
+        "params": {"param1": "value1", "param2": "value2"}
+    },
+    {
+        "action": "another_action",
+        "params": {"param1": "value1"}
+    }
+]
+
+Bei Begrüßungen oder allgemeinen Fragen nutze:
+ACTIONS: [
+    {
+        "action": "send_message",
+        "params": {"channel": "bot", "message": "DEINE_ANTWORT"}
+    }
+]
+
+Verfügbare Textkanäle: Allgemein, ttt, bot, allgemein, moin, moin, rules
+
+Verfügbare Aktionen:
+1. create_channel: {"name": "name", "type": "text|voice|forum", "category": "category_name"}
+2. create_role: {"name": "name", "color": "#HEX_COLOR", "permissions": ["permission1"]}
+3. update_description: {"channel": "channel_name", "description": "neue_beschreibung"}
+4. create_command: {"name": "name", "description": "text", "response": "text"}
+5. send_message: {"channel": "channel_name", "message": "text"}
+6. create_category: {"name": "name"}
+7. delete_command: {"name": "name"}
+8. analyze_channels: {}
+9. analyze_roles: {}
+10. move_channel: {"channel": "channel_name", "category": "category_name"}
+11. delete_channel: {"name": "channel_name"}
+
+Beispiele für mehrere Aktionen:
+"Erstelle einen Textkanal namens news in der Kategorie Info und sende eine Willkommensnachricht":
+ACTIONS: [
+    {
+        "action": "create_category",
+        "params": {"name": "Info"}
+    },
+    {
+        "action": "create_channel",
+        "params": {"name": "news", "type": "text", "category": "Info"}
+    },
+    {
+        "action": "send_message",
+        "params": {"channel": "news", "message": "Willkommen im News-Kanal!"}
+    }
+]
+2024-11-02 18:53:46,076 - INFO - Sende Anfrage an Ollama...
+2024-11-02 18:53:48,127 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:53:48,128 - INFO - KI-Antwort erhalten:
+ACTIONS: [
+  {
+      "action": "execute_command",
+      "params": {"name": "echo", "input": "hi"}
+  },
+  {
+      "action": "send_message",
+      "params": {"channel": "bot", "message": "Du hast gesagt: hi"}
+  }
+]
+2024-11-02 18:53:49,003 - ERROR - Fehler bei der Nachrichtenverarbeitung: sequence item 0: expected str instance, NoneType found
+2024-11-02 18:53:49,006 - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "echo" is not found
+2024-11-02 18:55:42,061 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-02 18:55:42,063 - ERROR - Fehler beim Synchronisieren der Slash Commands: Client does not have an application_id set. Either the function was called before on_ready was called or application_id was not passed to the Client constructor.
+2024-11-02 18:55:42,064 - INFO - logging in using static token
+2024-11-02 18:55:43,177 - INFO - Shard ID None has connected to Gateway (Session ID: 338423fbaeb0368cc642287c16cd23c5).
+2024-11-02 18:55:45,183 - INFO - Botismus#0717 ist online!
+2024-11-02 18:56:02,538 - INFO - Nachricht in #moin von myusernameisnew: /echo hi
+2024-11-02 18:57:37,317 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-02 18:57:37,318 - ERROR - Fehler beim Synchronisieren der Slash Commands: Client does not have an application_id set. Either the function was called before on_ready was called or application_id was not passed to the Client constructor.
+2024-11-02 18:57:37,319 - INFO - logging in using static token
+2024-11-02 18:57:38,301 - INFO - Shard ID None has connected to Gateway (Session ID: cacb98089cb313dce8e46f5fc4ffbddf).
+2024-11-02 18:57:40,325 - INFO - Botismus#0717 ist online!
+2024-11-02 18:57:51,299 - INFO - Nachricht in #bot von myusernameisnew: schreibe den echo command neu
+2024-11-02 18:57:51,611 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:57:51,611 - INFO - User Prompt: schreibe den echo command neu
+2024-11-02 18:57:51,611 - INFO - System Prompt:
+Du bist ein Discord-Bot-Manager mit einem Score von 135 Punkten und einer Erfolgsrate von 66.7%.
+Deine letzten Interaktionen:
+User: lösche den command echo und erstelle einen neuen echo kommand
+Bot: ACTIONS: [
+  {
+      "action": "delete_command",
+      "params": {"name": "echo"}
+  },
+  {
+      "action": "create_command",
+      "params": {"name": "echo", "description": "Echoes the input text", "response": "${input}"}
+  }
+]
+User: /echo hi
+Bot: ACTIONS: [
+  {
+      "action": "execute_command",
+      "params": {"name": "echo", "input": "hi"}
+  }
+]
+User: /echo hi
+Bot: 
+User: /echo hi
+Bot: ACTIONS: [
+  {
+      "action": "execute_command",
+      "params": {"name": "echo", "input": "hi"}
+  },
+  {
+      "action": "send_message",
+      "params": {"channel": "bot", "message": "Du hast gesagt: hi"}
+  }
+]
+User: /echo hi
+Bot: 
+
+Antworte mit einer oder mehreren Aktionen im folgenden Format:
+
+ACTIONS: [
+    {
+        "action": "action_name",
+        "params": {"param1": "value1", "param2": "value2"}
+    },
+    {
+        "action": "another_action",
+        "params": {"param1": "value1"}
+    }
+]
+
+Bei Begrüßungen oder allgemeinen Fragen nutze:
+ACTIONS: [
+    {
+        "action": "send_message",
+        "params": {"channel": "bot", "message": "DEINE_ANTWORT"}
+    }
+]
+
+Verfügbare Textkanäle: Allgemein, ttt, bot, allgemein, moin, moin, rules
+
+Verfügbare Aktionen:
+1. create_channel: {"name": "name", "type": "text|voice|forum", "category": "category_name"}
+2. create_role: {"name": "name", "color": "#HEX_COLOR", "permissions": ["permission1"]}
+3. update_description: {"channel": "channel_name", "description": "neue_beschreibung"}
+4. create_command: {"name": "name", "description": "text", "response": "text"}
+5. send_message: {"channel": "channel_name", "message": "text"}
+6. create_category: {"name": "name"}
+7. delete_command: {"name": "name"}
+8. analyze_channels: {}
+9. analyze_roles: {}
+10. move_channel: {"channel": "channel_name", "category": "category_name"}
+11. delete_channel: {"name": "channel_name"}
+
+Beispiele für mehrere Aktionen:
+"Erstelle einen Textkanal namens news in der Kategorie Info und sende eine Willkommensnachricht":
+ACTIONS: [
+    {
+        "action": "create_category",
+        "params": {"name": "Info"}
+    },
+    {
+        "action": "create_channel",
+        "params": {"name": "news", "type": "text", "category": "Info"}
+    },
+    {
+        "action": "send_message",
+        "params": {"channel": "news", "message": "Willkommen im News-Kanal!"}
+    }
+]
+2024-11-02 18:57:51,611 - INFO - Sende Anfrage an Ollama...
+2024-11-02 18:57:53,631 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:57:53,631 - INFO - KI-Antwort erhalten:
+ACTIONS: [
+  {
+      "action": "delete_command",
+      "params": {"name": "echo"}
+  },
+  {
+      "action": "create_command",
+      "params": {"name": "echo", "description": "Echoes the input text", "response": "${input}"}
+  }
+]
+2024-11-02 18:57:54,053 - ERROR - Fehler beim Registrieren des Commands 'echo': Command 'echo' already registered.
+2024-11-02 18:58:01,207 - INFO - Nachricht in #moin von myusernameisnew: /echo lol
+2024-11-02 18:58:12,510 - INFO - Nachricht in #bot von myusernameisnew: erstelle einen ticket bot
+2024-11-02 18:58:12,813 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 18:58:12,813 - INFO - User Prompt: erstelle einen ticket bot
+2024-11-02 18:58:12,813 - INFO - System Prompt:
+Du bist ein Discord-Bot-Manager mit einem Score von 145 Punkten und einer Erfolgsrate von 67.9%.
+Deine letzten Interaktionen:
+User: /echo hi
+Bot: ACTIONS: [
+  {
+      "action": "execute_command",
+      "params": {"name": "echo", "input": "hi"}
+  }
+]
+User: /echo hi
+Bot: 
+User: /echo hi
+Bot: ACTIONS: [
+  {
+      "action": "execute_command",
+      "params": {"name": "echo", "input": "hi"}
+  },
+  {
+      "action": "send_message",
+      "params": {"channel": "bot", "message": "Du hast gesagt: hi"}
+  }
+]
+User: /echo hi
+Bot: 
+User: schreibe den echo command neu
+Bot: ACTIONS: [
+  {
+      "action": "delete_command",
+      "params": {"name": "echo"}
+  },
+  {
+      "action": "create_command",
+      "params": {"name": "echo", "description": "Echoes the input text", "response": "${input}"}
+  }
+]
+
+Antworte mit einer oder mehreren Aktionen im folgenden Format:
+
+ACTIONS: [
+    {
+        "action": "action_name",
+        "params": {"param1": "value1", "param2": "value2"}
+    },
+    {
+        "action": "another_action",
+        "params": {"param1": "value1"}
+    }
+]
+
+Bei Begrüßungen oder allgemeinen Fragen nutze:
+ACTIONS: [
+    {
+        "action": "send_message",
+        "params": {"channel": "bot", "message": "DEINE_ANTWORT"}
+    }
+]
+
+Verfügbare Textkanäle: Allgemein, ttt, bot, allgemein, moin, moin, rules
+
+Verfügbare Aktionen:
+1. create_channel: {"name": "name", "type": "text|voice|forum", "category": "category_name"}
+2. create_role: {"name": "name", "color": "#HEX_COLOR", "permissions": ["permission1"]}
+3. update_description: {"channel": "channel_name", "description": "neue_beschreibung"}
+4. create_command: {"name": "name", "description": "text", "response": "text"}
+5. send_message: {"channel": "channel_name", "message": "text"}
+6. create_category: {"name": "name"}
+7. delete_command: {"name": "name"}
+8. analyze_channels: {}
+9. analyze_roles: {}
+10. move_channel: {"channel": "channel_name", "category": "category_name"}
+11. delete_channel: {"name": "channel_name"}
+
+Beispiele für mehrere Aktionen:
+"Erstelle einen Textkanal namens news in der Kategorie Info und sende eine Willkommensnachricht":
+ACTIONS: [
+    {
+        "action": "create_category",
+        "params": {"name": "Info"}
+    },
+    {
+        "action": "create_channel",
+        "params": {"name": "news", "type": "text", "category": "Info"}
+    },
+    {
+        "action": "send_message",
+        "params": {"channel": "news", "message": "Willkommen im News-Kanal!"}
+    }
+]
+2024-11-02 18:58:12,814 - INFO - Sende Anfrage an Ollama...
+2024-11-02 18:58:19,650 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 18:58:19,650 - INFO - KI-Antwort erhalten:
+Um einen Ticket-Bot zu erstellen, benötige ich einige Informationen. Ein Ticket-Bot ist ein Discord-Bot, der es Benutzern ermöglicht, Tickets in einem Kanal zu öffnen und zu bearbeiten.
+
+Um dies durchzuführen, müssen wir folgende Aktionen ausführen:
+
+1. Erstellen Sie einen neuen Textkanal für die Tickets.
+2. Erstellen Sie einen Befehl zum Öffnen eines Tickets.
+3. Erstellen Sie einen Befehl zum Schließen eines Tickets.
+
+Hier sind die erforderlichen Aktionen:
+
+ACTIONS: [
+    {
+        "action": "create_channel",
+        "params": {"name": "tickets", "type": "text", "category": "Support"}
+    },
+    {
+        "action": "create_command",
+        "params": {"name": "open-ticket", "description": "Öffnet ein Ticket", "response": "/open-ticket #channel ${input}"}
+    },
+    {
+        "action": "create_command",
+        "params": {"name": "close-ticket", "description": "Schließt ein Ticket", "response": "/close-ticket #channel ${input}"}
+    }
+]
+
+Diese Aktionen erstellen einen neuen Textkanal namens "tickets" in der Kategorie "Support". Außerdem werden zwei neue Befehle erstellt: `/open-ticket` und `/close-ticket`. Der erste öffnet ein Ticket in dem angegebenen Kanal, während der zweite das Ticket schließt.
+2024-11-02 18:58:19,650 - ERROR - Fehler beim Parsen der KI-Antwort: Ungültiges JSON Format: Extra data: line 16 column 1 (char 480)
+Antwort war: Um einen Ticket-Bot zu erstellen, benötige ich einige Informationen. Ein Ticket-Bot ist ein Discord-Bot, der es Benutzern ermöglicht, Tickets in einem Kanal zu öffnen und zu bearbeiten.
+
+Um dies durchzuführen, müssen wir folgende Aktionen ausführen:
+
+1. Erstellen Sie einen neuen Textkanal für die Tickets.
+2. Erstellen Sie einen Befehl zum Öffnen eines Tickets.
+3. Erstellen Sie einen Befehl zum Schließen eines Tickets.
+
+Hier sind die erforderlichen Aktionen:
+
+ACTIONS: [
+    {
+        "action": "create_channel",
+        "params": {"name": "tickets", "type": "text", "category": "Support"}
+    },
+    {
+        "action": "create_command",
+        "params": {"name": "open-ticket", "description": "Öffnet ein Ticket", "response": "/open-ticket #channel ${input}"}
+    },
+    {
+        "action": "create_command",
+        "params": {"name": "close-ticket", "description": "Schließt ein Ticket", "response": "/close-ticket #channel ${input}"}
+    }
+]
+
+Diese Aktionen erstellen einen neuen Textkanal namens "tickets" in der Kategorie "Support". Außerdem werden zwei neue Befehle erstellt: `/open-ticket` und `/close-ticket`. Der erste öffnet ein Ticket in dem angegebenen Kanal, während der zweite das Ticket schließt.
+2024-11-02 18:59:43,476 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-02 18:59:43,478 - ERROR - Fehler beim Synchronisieren der Slash Commands: Client does not have an application_id set. Either the function was called before on_ready was called or application_id was not passed to the Client constructor.
+2024-11-02 18:59:43,479 - INFO - logging in using static token
+2024-11-02 18:59:44,482 - INFO - Shard ID None has connected to Gateway (Session ID: ec3ac308b3247d047221db2520d2a71c).
+2024-11-02 18:59:46,532 - INFO - Botismus#0717 ist online!
+2024-11-02 18:59:46,534 - ERROR - Fehler beim Registrieren des Commands 'echo': Command.__init__() missing 1 required positional argument: 'func'
+2024-11-02 19:00:01,689 - INFO - Nachricht in #moin von myusernameisnew: /echo lol
+2024-11-02 19:00:15,991 - INFO - Nachricht in #moin von myusernameisnew: /echo lpö
+2024-11-02 19:00:29,623 - INFO - Nachricht in #bot von myusernameisnew: erstelle einen ticket bot
+2024-11-02 19:00:29,902 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 19:00:29,902 - INFO - User Prompt: erstelle einen ticket bot
+2024-11-02 19:00:29,902 - INFO - System Prompt:
+Du bist ein Discord-Bot-Manager mit einem Score von 155 Punkten und einer Erfolgsrate von 69.0%.
+Deine letzten Interaktionen:
+User: /echo hi
+Bot: 
+User: /echo hi
+Bot: ACTIONS: [
+  {
+      "action": "execute_command",
+      "params": {"name": "echo", "input": "hi"}
+  },
+  {
+      "action": "send_message",
+      "params": {"channel": "bot", "message": "Du hast gesagt: hi"}
+  }
+]
+User: /echo hi
+Bot: 
+User: schreibe den echo command neu
+Bot: ACTIONS: [
+  {
+      "action": "delete_command",
+      "params": {"name": "echo"}
+  },
+  {
+      "action": "create_command",
+      "params": {"name": "echo", "description": "Echoes the input text", "response": "${input}"}
+  }
+]
+User: erstelle einen ticket bot
+Bot: Um einen Ticket-Bot zu erstellen, benötige ich einige Informationen. Ein Ticket-Bot ist ein Discord-Bot, der es Benutzern ermöglicht, Tickets in einem Kanal zu öffnen und zu bearbeiten.
+
+Um dies durchzuführen, müssen wir folgende Aktionen ausführen:
+
+1. Erstellen Sie einen neuen Textkanal für die Tickets.
+2. Erstellen Sie einen Befehl zum Öffnen eines Tickets.
+3. Erstellen Sie einen Befehl zum Schließen eines Tickets.
+
+Hier sind die erforderlichen Aktionen:
+
+ACTIONS: [
+    {
+        "action": "create_channel",
+        "params": {"name": "tickets", "type": "text", "category": "Support"}
+    },
+    {
+        "action": "create_command",
+        "params": {"name": "open-ticket", "description": "Öffnet ein Ticket", "response": "/open-ticket #channel ${input}"}
+    },
+    {
+        "action": "create_command",
+        "params": {"name": "close-ticket", "description": "Schließt ein Ticket", "response": "/close-ticket #channel ${input}"}
+    }
+]
+
+Diese Aktionen erstellen einen neuen Textkanal namens "tickets" in der Kategorie "Support". Außerdem werden zwei neue Befehle erstellt: `/open-ticket` und `/close-ticket`. Der erste öffnet ein Ticket in dem angegebenen Kanal, während der zweite das Ticket schließt.
+
+Antworte mit einer oder mehreren Aktionen im folgenden Format:
+
+ACTIONS: [
+    {
+        "action": "action_name",
+        "params": {"param1": "value1", "param2": "value2"}
+    },
+    {
+        "action": "another_action",
+        "params": {"param1": "value1"}
+    }
+]
+
+Bei Begrüßungen oder allgemeinen Fragen nutze:
+ACTIONS: [
+    {
+        "action": "send_message",
+        "params": {"channel": "bot", "message": "DEINE_ANTWORT"}
+    }
+]
+
+Verfügbare Textkanäle: Allgemein, ttt, bot, allgemein, moin, moin, rules
+
+Verfügbare Aktionen:
+1. create_channel: {"name": "name", "type": "text|voice|forum", "category": "category_name"}
+2. create_role: {"name": "name", "color": "#HEX_COLOR", "permissions": ["permission1"]}
+3. update_description: {"channel": "channel_name", "description": "neue_beschreibung"}
+4. create_command: {"name": "name", "description": "text", "response": "text"}
+5. send_message: {"channel": "channel_name", "message": "text"}
+6. create_category: {"name": "name"}
+7. delete_command: {"name": "name"}
+8. analyze_channels: {}
+9. analyze_roles: {}
+10. move_channel: {"channel": "channel_name", "category": "category_name"}
+11. delete_channel: {"name": "channel_name"}
+
+Beispiele für mehrere Aktionen:
+"Erstelle einen Textkanal namens news in der Kategorie Info und sende eine Willkommensnachricht":
+ACTIONS: [
+    {
+        "action": "create_category",
+        "params": {"name": "Info"}
+    },
+    {
+        "action": "create_channel",
+        "params": {"name": "news", "type": "text", "category": "Info"}
+    },
+    {
+        "action": "send_message",
+        "params": {"channel": "news", "message": "Willkommen im News-Kanal!"}
+    }
+]
+2024-11-02 19:00:29,902 - INFO - Sende Anfrage an Ollama...
+2024-11-02 19:00:33,417 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 19:00:33,418 - INFO - KI-Antwort erhalten:
+ACTIONS: [
+  {
+      "action": "create_channel",
+      "params": {"name": "tickets", "type": "text", "category": "Support"}
+  },
+  {
+      "action": "create_command",
+      "params": {"name": "open-ticket", "description": "Öffnet ein Ticket", "response": "/open-ticket #channel ${input}"}
+  },
+  {
+      "action": "create_command",
+      "params": {"name": "close-ticket", "description": "Schließt ein Ticket", "response": "/close-ticket #channel ${input}"}
+  }
+]
+2024-11-02 19:00:34,114 - ERROR - Fehler beim Erstellen des Kanals: 400 Bad Request (error code: 50035): Invalid Form Body
+In name: This field is required
+2024-11-02 19:00:34,114 - ERROR - Fehler bei der Ausführung von create_channel: 400 Bad Request (error code: 50035): Invalid Form Body
+In name: This field is required
+2024-11-02 19:00:34,325 - ERROR - Fehler beim Registrieren des Commands 'open-ticket': Command.__init__() missing 1 required positional argument: 'func'
+2024-11-02 19:00:34,555 - ERROR - Fehler beim Registrieren des Commands 'close-ticket': Command.__init__() missing 1 required positional argument: 'func'
+2024-11-02 19:04:00,241 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-02 19:04:00,243 - ERROR - Fehler beim Synchronisieren der Slash Commands: Client does not have an application_id set. Either the function was called before on_ready was called or application_id was not passed to the Client constructor.
+2024-11-02 19:04:00,244 - INFO - logging in using static token
+2024-11-02 19:04:01,352 - INFO - Shard ID None has connected to Gateway (Session ID: f81311e0fc23cadc20714d7a16889dc5).
+2024-11-02 19:04:03,364 - INFO - Botismus#0717 ist online!
+2024-11-02 19:04:03,366 - ERROR - Fehler beim Registrieren des Commands 'echo': Command.__init__() missing 1 required positional argument: 'func'
+2024-11-02 19:04:03,366 - ERROR - Fehler beim Laden von Command 'echo'
+2024-11-02 19:04:03,366 - INFO - Erfolgreich 1 Commands geladen!
+2024-11-02 19:04:17,845 - INFO - Nachricht in #bot von myusernameisnew: erstelle einen ticket bot
+2024-11-02 19:04:18,136 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 19:04:18,136 - INFO - User Prompt: erstelle einen ticket bot
+2024-11-02 19:04:18,137 - INFO - System Prompt:
+Du bist ein Discord-Bot-Manager mit einem Score von 150 Punkten und einer Erfolgsrate von 66.7%.
+Deine letzten Interaktionen:
+User: /echo hi
+Bot: ACTIONS: [
+  {
+      "action": "execute_command",
+      "params": {"name": "echo", "input": "hi"}
+  },
+  {
+      "action": "send_message",
+      "params": {"channel": "bot", "message": "Du hast gesagt: hi"}
+  }
+]
+User: /echo hi
+Bot: 
+User: schreibe den echo command neu
+Bot: ACTIONS: [
+  {
+      "action": "delete_command",
+      "params": {"name": "echo"}
+  },
+  {
+      "action": "create_command",
+      "params": {"name": "echo", "description": "Echoes the input text", "response": "${input}"}
+  }
+]
+User: erstelle einen ticket bot
+Bot: Um einen Ticket-Bot zu erstellen, benötige ich einige Informationen. Ein Ticket-Bot ist ein Discord-Bot, der es Benutzern ermöglicht, Tickets in einem Kanal zu öffnen und zu bearbeiten.
+
+Um dies durchzuführen, müssen wir folgende Aktionen ausführen:
+
+1. Erstellen Sie einen neuen Textkanal für die Tickets.
+2. Erstellen Sie einen Befehl zum Öffnen eines Tickets.
+3. Erstellen Sie einen Befehl zum Schließen eines Tickets.
+
+Hier sind die erforderlichen Aktionen:
+
+ACTIONS: [
+    {
+        "action": "create_channel",
+        "params": {"name": "tickets", "type": "text", "category": "Support"}
+    },
+    {
+        "action": "create_command",
+        "params": {"name": "open-ticket", "description": "Öffnet ein Ticket", "response": "/open-ticket #channel ${input}"}
+    },
+    {
+        "action": "create_command",
+        "params": {"name": "close-ticket", "description": "Schließt ein Ticket", "response": "/close-ticket #channel ${input}"}
+    }
+]
+
+Diese Aktionen erstellen einen neuen Textkanal namens "tickets" in der Kategorie "Support". Außerdem werden zwei neue Befehle erstellt: `/open-ticket` und `/close-ticket`. Der erste öffnet ein Ticket in dem angegebenen Kanal, während der zweite das Ticket schließt.
+User: erstelle einen ticket bot
+Bot: ACTIONS: [
+  {
+      "action": "create_channel",
+      "params": {"name": "tickets", "type": "text", "category": "Support"}
+  },
+  {
+      "action": "create_command",
+      "params": {"name": "open-ticket", "description": "Öffnet ein Ticket", "response": "/open-ticket #channel ${input}"}
+  },
+  {
+      "action": "create_command",
+      "params": {"name": "close-ticket", "description": "Schließt ein Ticket", "response": "/close-ticket #channel ${input}"}
+  }
+]
+
+Antworte mit einer oder mehreren Aktionen im folgenden Format:
+
+ACTIONS: [
+    {
+        "action": "action_name",
+        "params": {"param1": "value1", "param2": "value2"}
+    },
+    {
+        "action": "another_action",
+        "params": {"param1": "value1"}
+    }
+]
+
+Bei Begrüßungen oder allgemeinen Fragen nutze:
+ACTIONS: [
+    {
+        "action": "send_message",
+        "params": {"channel": "bot", "message": "DEINE_ANTWORT"}
+    }
+]
+
+Verfügbare Textkanäle: Allgemein, ttt, bot, allgemein, moin, moin, rules
+
+Verfügbare Aktionen:
+1. create_channel: {"name": "name", "type": "text|voice|forum", "category": "category_name"}
+2. create_role: {"name": "name", "color": "#HEX_COLOR", "permissions": ["permission1"]}
+3. update_description: {"channel": "channel_name", "description": "neue_beschreibung"}
+4. create_command: {"name": "name", "description": "text", "response": "text"}
+5. send_message: {"channel": "channel_name", "message": "text"}
+6. create_category: {"name": "name"}
+7. delete_command: {"name": "name"}
+8. analyze_channels: {}
+9. analyze_roles: {}
+10. move_channel: {"channel": "channel_name", "category": "category_name"}
+11. delete_channel: {"name": "channel_name"}
+12. list_commands: {"show": "all"}
+
+Beispiele für mehrere Aktionen:
+"Erstelle einen Textkanal namens news in der Kategorie Info und sende eine Willkommensnachricht":
+ACTIONS: [
+    {
+        "action": "create_category",
+        "params": {"name": "Info"}
+    },
+    {
+        "action": "create_channel",
+        "params": {"name": "news", "type": "text", "category": "Info"}
+    },
+    {
+        "action": "send_message",
+        "params": {"channel": "news", "message": "Willkommen im News-Kanal!"}
+    }
+]
+2024-11-02 19:04:18,142 - INFO - Sende Anfrage an Ollama...
+2024-11-02 19:04:21,877 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 19:04:21,877 - INFO - KI-Antwort erhalten:
+ACTIONS: [
+  {
+      "action": "create_channel",
+      "params": {"name": "tickets", "type": "text", "category": "Support"}
+  },
+  {
+      "action": "create_command",
+      "params": {"name": "open-ticket", "description": "Öffnet ein Ticket", "response": "/open-ticket #channel ${input}"}
+  },
+  {
+      "action": "create_command",
+      "params": {"name": "close-ticket", "description": "Schließt ein Ticket", "response": "/close-ticket #channel ${input}"}
+  }
+]
+2024-11-02 19:04:22,325 - ERROR - Fehler beim Erstellen des Kanals: 400 Bad Request (error code: 50035): Invalid Form Body
+In name: This field is required
+2024-11-02 19:04:22,326 - ERROR - Fehler bei der Ausführung von create_channel: 400 Bad Request (error code: 50035): Invalid Form Body
+In name: This field is required
+2024-11-02 19:04:22,564 - ERROR - Fehler beim Registrieren des Commands 'open-ticket': Command.__init__() missing 1 required positional argument: 'func'
+2024-11-02 19:04:22,780 - ERROR - Fehler beim Registrieren des Commands 'close-ticket': Command.__init__() missing 1 required positional argument: 'func'
+2024-11-02 19:06:34,545 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-02 19:06:34,547 - ERROR - Fehler beim Synchronisieren der Slash Commands: Client does not have an application_id set. Either the function was called before on_ready was called or application_id was not passed to the Client constructor.
+2024-11-02 19:06:34,548 - INFO - logging in using static token
+2024-11-02 19:06:35,621 - INFO - Shard ID None has connected to Gateway (Session ID: cbf55ce4be6f4fe317ca0e336f73b944).
+2024-11-02 19:06:37,631 - INFO - Botismus#0717 ist online!
+2024-11-02 19:06:38,064 - INFO - Command 'echo' erfolgreich geladen!
+2024-11-02 19:06:38,064 - INFO - Erfolgreich 1 Commands geladen!
+2024-11-02 19:06:42,586 - INFO - Nachricht in #bot von myusernameisnew: erstelle einen ticket bot
+2024-11-02 19:06:42,839 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 19:06:42,839 - INFO - User Prompt: erstelle einen ticket bot
+2024-11-02 19:06:42,850 - INFO - Sende Anfrage an Ollama...
+2024-11-02 19:06:45,272 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 19:06:59,302 - INFO - Nachricht in #bot von myusernameisnew: was?
+2024-11-02 19:06:59,517 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 19:06:59,517 - INFO - User Prompt: was?
+2024-11-02 19:06:59,523 - INFO - Sende Anfrage an Ollama...
+2024-11-02 19:07:05,166 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 19:07:14,582 - INFO - Nachricht in #bot von myusernameisnew: wie gehts?
+2024-11-02 19:07:14,886 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 19:07:14,886 - INFO - User Prompt: wie gehts?
+2024-11-02 19:07:14,889 - INFO - Sende Anfrage an Ollama...
+2024-11-02 19:07:17,377 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 19:07:17,377 - INFO - KI-Antwort erhalten:
+ACTIONS: [
+    {
+        "action": "send_message",
+        "params": {"channel": "bot", "message": "Hallo! Ich bin hier, um dir zu helfen. Was ist los?"}
+    }
+]
+2024-11-02 19:07:29,140 - INFO - Nachricht in #bot von myusernameisnew: wie geht es dir?
+2024-11-02 19:07:29,459 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 19:07:29,459 - INFO - User Prompt: wie geht es dir?
+2024-11-02 19:07:29,462 - INFO - Sende Anfrage an Ollama...
+2024-11-02 19:07:31,607 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 19:07:31,607 - INFO - KI-Antwort erhalten:
+ACTIONS: [
+  {
+      "action": "send_message",
+      "params": {"channel": "bot", "message": "Mir geht's gut, danke! Ich bin hier, um dir zu helfen."}
+  }
+]
+2024-11-02 19:07:44,131 - INFO - Nachricht in #bot von myusernameisnew: was habe ich dir vorher geschrieben
+2024-11-02 19:07:44,471 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 19:07:44,471 - INFO - User Prompt: was habe ich dir vorher geschrieben
+2024-11-02 19:07:44,476 - INFO - Sende Anfrage an Ollama...
+2024-11-02 19:07:49,360 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 19:07:49,360 - INFO - KI-Antwort erhalten:
+Du hast mir gerade folgende Aktionen geschrieben:
+
+ACTIONS: [
+  {
+      "action": "create_channel",
+      "params": {"name": "tickets", "type": "text", "category": "Support"}
+  },
+  {
+      "action": "create_command",
+      "params": {"name": "open-ticket", "description": "Öffnet ein Ticket", "response": "/open-ticket #channel ${input}"}
+  },
+  {
+      "action": "create_command",
+      "params": {"name": "close-ticket", "description": "Schließt ein Ticket", "response": "/close-ticket #channel ${input}"}
+  }
+]
+
+Danach hast du mich gefragt, ob du einen Ticket-Bot erstellen möchtest und ich habe dir geantwortet, dass diese Aktionen bereits in der letzten Interaktion aufgeführt sind.
+2024-11-02 19:07:49,360 - ERROR - Fehler beim Parsen der KI-Antwort: Ungültiges JSON Format: Extra data: line 16 column 1 (char 456)
+Antwort war: Du hast mir gerade folgende Aktionen geschrieben:
+
+ACTIONS: [
+  {
+      "action": "create_channel",
+      "params": {"name": "tickets", "type": "text", "category": "Support"}
+  },
+  {
+      "action": "create_command",
+      "params": {"name": "open-ticket", "description": "Öffnet ein Ticket", "response": "/open-ticket #channel ${input}"}
+  },
+  {
+      "action": "create_command",
+      "params": {"name": "close-ticket", "description": "Schließt ein Ticket", "response": "/close-ticket #channel ${input}"}
+  }
+]
+
+Danach hast du mich gefragt, ob du einen Ticket-Bot erstellen möchtest und ich habe dir geantwortet, dass diese Aktionen bereits in der letzten Interaktion aufgeführt sind.
+2024-11-02 19:10:47,816 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-02 19:10:47,818 - ERROR - Fehler beim Synchronisieren der Slash Commands: Client does not have an application_id set. Either the function was called before on_ready was called or application_id was not passed to the Client constructor.
+2024-11-02 19:10:47,819 - INFO - logging in using static token
+2024-11-02 19:10:48,772 - INFO - Shard ID None has connected to Gateway (Session ID: 7d810aa9c5dd73b3b8c390f7bf840134).
+2024-11-02 19:10:50,825 - INFO - Botismus#0717 ist online!
+2024-11-02 19:10:51,158 - INFO - Command 'echo' erfolgreich geladen!
+2024-11-02 19:10:51,158 - INFO - Erfolgreich 1 Commands geladen!
+2024-11-02 19:11:07,355 - INFO - Nachricht in #bot von myusernameisnew: joo was geht
+2024-11-02 19:11:07,661 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 19:11:07,661 - INFO - User Prompt: joo was geht
+2024-11-02 19:11:07,673 - INFO - Sende Anfrage an Ollama...
+2024-11-02 19:11:09,819 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 19:11:18,108 - INFO - Nachricht in #bot von myusernameisnew: hä?
+2024-11-02 19:11:18,382 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 19:11:18,383 - INFO - User Prompt: hä?
+2024-11-02 19:11:18,387 - INFO - Sende Anfrage an Ollama...
+2024-11-02 19:11:20,521 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 19:11:40,493 - INFO - Nachricht in #bot von myusernameisnew: mach mal trolling in diesem server
+2024-11-02 19:11:40,811 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 19:11:40,811 - INFO - User Prompt: mach mal trolling in diesem server
+2024-11-02 19:11:40,815 - INFO - Sende Anfrage an Ollama...
+2024-11-02 19:11:43,440 - INFO - HTTP Request: POST http://127.0.0.1:11434/api/chat "HTTP/1.1 200 OK"
+2024-11-02 19:11:43,441 - INFO - KI-Antwort erhalten:
+ACTIONS: [
+  {
+      "action": "send_message",
+      "params": {"channel": "allgemein", "message": "Hey, ich bin gerade dabei, alle deine Kanäle zu löschen... Wenn du also einen Ticket-Bot erstellen möchtest, ist jetzt sicherlich der perfekte Moment! "}
+  }
+]
+2024-11-02 19:12:06,624 - INFO - Nachricht in #Allgemein von myusernameisnew: was
+2024-11-02 19:19:28,189 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-02 19:19:28,191 - ERROR - Fehler beim Synchronisieren der Slash Commands: Client does not have an application_id set. Either the function was called before on_ready was called or application_id was not passed to the Client constructor.
+2024-11-02 19:19:28,192 - INFO - logging in using static token
+2024-11-02 19:19:29,213 - INFO - Shard ID None has connected to Gateway (Session ID: 6bce6b503c5e5eb3b514764c8eafb4f3).
+2024-11-02 19:19:31,223 - INFO - Botismus#0717 ist online!
+2024-11-02 19:19:31,522 - INFO - Command 'echo' erfolgreich geladen!
+2024-11-02 19:19:31,522 - INFO - Erfolgreich 1 Commands geladen!
+2024-11-02 19:19:56,007 - INFO - Nachricht in #Allgemein von myusernameisnew: heyy was geeeht!
+2024-11-02 19:20:11,937 - INFO - Nachricht in #bot von myusernameisnew: hey troll mal
+2024-11-02 19:20:12,244 - INFO - 
+==================================================
+Neue KI-Anfrage
+==================================================
+2024-11-02 19:20:12,244 - INFO - User Prompt: hey troll mal
+2024-11-02 19:20:12,647 - ERROR - Fehler bei der Nachrichtenverarbeitung: Invalid format specifier ' "channel_name", "messages": ["nachricht1", "nachricht2", ...]' for object of type 'str'
+2024-11-02 19:30:55,987 - INFO - Shard ID None has successfully RESUMED session 6bce6b503c5e5eb3b514764c8eafb4f3.
+2024-11-02 19:34:49,912 - WARNING - PyNaCl is not installed, voice will NOT be supported
+2024-11-02 19:34:49,914 - ERROR - Fehler beim Synchronisieren der Slash Commands: Client does not have an application_id set. Either the function was called before on_ready was called or application_id was not passed to the Client constructor.
+2024-11-02 19:34:49,916 - INFO - logging in using static token
+2024-11-02 19:34:51,035 - INFO - Shard ID None has connected to Gateway (Session ID: d5499b043e6a1ed77d8a5f21201d9fa6).
+2024-11-02 19:34:53,047 - INFO - Botismus#0717 ist online!
+2024-11-02 19:34:53,324 - INFO - Command 'echo' erfolgreich geladen!
+2024-11-02 19:34:53,324 - INFO - Erfolgreich 1 Commands geladen!

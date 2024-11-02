@@ -1,0 +1,6 @@
+{
+    "echo": {
+        "description": "Echoes the input text",
+        "response": "{args}"
+    }
+}
