@@ -72,7 +72,10 @@ Before installing Botismus, ensure your system meets these requirements:
    # or
    .\venv\Scripts\activate  # Windows
 
-   # Install dependencies
+   # Install required packages
+   pip install discord.py python-dotenv
+   
+   # Install all dependencies
    pip install -r requirements.txt
    ```
 
@@ -268,7 +271,10 @@ Check mal, ob dein System das packt:
    # oder
    .\venv\Scripts\activate  # Windows
 
-   # Alles Nötige installieren
+   # Benötigte Pakete installieren
+   pip install discord.py python-dotenv
+   
+   # Alle Abhängigkeiten installieren
    pip install -r requirements.txt
    ```
 

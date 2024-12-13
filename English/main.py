@@ -1,4 +1,10 @@
-# ... existing imports ...
+import logging
+import discord
+from discord.ext import commands
+from dotenv import load_dotenv
+import os
+from ai_memory import AIMemory
+from command_manager import CommandManager
 
 # Logging Configuration
 logging.basicConfig(
