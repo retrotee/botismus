@@ -1,5 +1,6 @@
 import logging
 import discord
+import aiohttp
 from discord.ext import commands
 from dotenv import load_dotenv
 import os
@@ -120,4 +121,52 @@ ACTIONS: [
     }}
 ]"""
 
-    # ... rest of the function remains the same ... 
+    try:
+        # Make request to Ollama API
+        async with aiohttp.ClientSession() as session:
+            async with session.post(
+                f"{os.getenv('OLLAMA_API_URL')}/api/generate",
+                json={
+                    "model": "llama3.1",
+                    "prompt": f"{system_prompt}\n\nUser: {prompt}\nBot:",
+                    "stream": False
+                }
+            ) as response:
+                if response.status == 200:
+                    result = await response.json()
+                    return result['response']
+                else:
+                    error_msg = f"Error: API returned status {response.status}"
+                    logging.error(error_msg)
+                    return error_msg
+    except Exception as e:
+        error_msg = f"Error making API request: {str(e)}"
+        logging.error(error_msg)
+        return error_msg
+
+# Add event handlers
+@bot.event
+async def on_ready():
+    logging.info(f'Bot is ready. Logged in as {bot.user.name}')
+
+@bot.event
+async def on_message(message):
+    if message.author == bot.user:
+        return
+
+    # Log incoming message
+    logging.info(f"Message from {message.author}: {message.content}")
+
+    # Get AI response
+    response = await get_ai_response(message.content, message.guild)
+    
+    # Process the response
+    try:
+        await command_manager.process_response(response, message)
+    except Exception as e:
+        logging.error(f"Error processing response: {str(e)}")
+        await message.channel.send("Error: Could not process response")
+
+# Run the bot
+if __name__ == "__main__":
+    bot.run(os.getenv('DISCORD_TOKEN'))
