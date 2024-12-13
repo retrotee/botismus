@@ -1,70 +1,76 @@
 import json
 import os
-from datetime import datetime
+from typing import List, Dict
 
 
 class AIMemory:
     def __init__(self):
-        self.memory_file = "ai_memory.json"
-        self.chat_history = []
-        self.score = 0
-        self.load_memory()
-
-    def load_memory(self):
+        self.chat_history: List[Dict] = []
+        self.score: int = 0
+        self.success_count: int = 0
+        self.total_interactions: int = 0
+        
+        # Try to load existing memory
         try:
-            if os.path.exists(self.memory_file):
-                with open(self.memory_file, 'r', encoding='utf-8') as f:
-                    data = json.load(f)
-                    self.chat_history = data.get('chat_history', [])
-                    self.score = data.get('score', 0)
+            self.load_memory()
         except Exception as e:
-            print(f"Error loading AI memory: {str(e)}")
+            print(f"Error loading AI memory: {e}")
+            # Initialize with empty values if loading fails
+            self.save_memory()  # Create initial memory file
 
-    def save_memory(self):
-        try:
-            with open(self.memory_file, 'w', encoding='utf-8') as f:
-                json.dump({
-                    'chat_history': self.chat_history,
-                    'score': self.score
-                }, f, indent=4, ensure_ascii=False)
-        except Exception as e:
-            print(f"Error saving AI memory: {str(e)}")
-
-    def add_interaction(self, user_input: str, ai_response: str, success: bool, error_message: str = None):
-        interaction = {
-            'timestamp': datetime.now().isoformat(),
-            'user_input': user_input,
-            'ai_response': ai_response,
-            'success': success,
-            'error': error_message,
-            'score_change': 10 if success else -5
-        }
-
-        self.chat_history.append(interaction)
-        self.score += interaction['score_change']
-
-        # Keep only the last 100 interactions
+    def add_interaction(self, prompt: str, response: str, success: bool = True):
+        self.chat_history.append({
+            "prompt": prompt,
+            "response": response,
+            "success": success
+        })
+        
+        # Update stats
+        self.total_interactions += 1
+        if success:
+            self.score += 10
+            self.success_count += 1
+        else:
+            self.score -= 5
+            
+        # Keep only last 100 interactions
         if len(self.chat_history) > 100:
-            self.chat_history = self.chat_history[-100:]
-
+            self.chat_history.pop(0)
+            
+        # Save after each interaction
         self.save_memory()
 
-    def get_recent_history(self, count: int = 5) -> list:
-        return self.chat_history[-count:]
+    def get_context_for_prompt(self) -> str:
+        # Return last 5 interactions as context
+        context = []
+        for interaction in self.chat_history[-5:]:
+            context.append(f"User: {interaction['prompt']}")
+            context.append(f"Bot: {interaction['response']}")
+        return "\n".join(context)
 
     def get_score(self) -> int:
         return self.score
 
     def get_success_rate(self) -> float:
-        if not self.chat_history:
-            return 0.0
-        successful = sum(1 for interaction in self.chat_history if interaction['success'])
-        return (successful / len(self.chat_history)) * 100
+        if self.total_interactions == 0:
+            return 100.0
+        return (self.success_count / self.total_interactions) * 100
 
-    def get_context_for_prompt(self, max_items: int = 5) -> str:
-        recent = self.get_recent_history(max_items)
-        context = []
-        for item in recent:
-            context.append(f"User: {item['user_input']}")
-            context.append(f"Bot: {item['ai_response']}")
-        return "\n".join(context)
+    def save_memory(self):
+        memory_data = {
+            "chat_history": self.chat_history,
+            "score": self.score,
+            "success_count": self.success_count,
+            "total_interactions": self.total_interactions
+        }
+        with open("ai_memory.json", "w") as f:
+            json.dump(memory_data, f, indent=2)
+
+    def load_memory(self):
+        if os.path.exists("ai_memory.json"):
+            with open("ai_memory.json", "r") as f:
+                memory_data = json.load(f)
+                self.chat_history = memory_data.get("chat_history", [])
+                self.score = memory_data.get("score", 0)
+                self.success_count = memory_data.get("success_count", 0)
+                self.total_interactions = memory_data.get("total_interactions", 0)
