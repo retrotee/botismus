@@ -18,7 +18,7 @@ logging.basicConfig(
 )
 
 # Load environment variables
-load_dotenv()
+load_dotenv(os.path.join(os.path.dirname(__file__), '.env'))
 
 # Bot and AI Memory Configuration 
 ai_memory = AIMemory()  # Initialize AI Memory

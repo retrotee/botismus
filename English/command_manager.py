@@ -1,5 +1,6 @@
 import json
 import logging
+import discord
 from typing import Dict, Any
 
 class CommandManager:
