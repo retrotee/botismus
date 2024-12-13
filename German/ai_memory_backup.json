@@ -1,0 +1,93 @@
+{
+    "chat_history": [
+        {
+            "timestamp": "2024-11-02T22:00:55.895616",
+            "user_input": "hey",
+            "ai_response": "ACTIONS: [\n  {\n      \"action\": \"send_message\",\n      \"params\": {\"channel\": \"bot\", \"message\": \"Hallo! Wie kann ich dir heute helfen? \"} \n  }\n]",
+            "success": true,
+            "error": null,
+            "score_change": 10
+        },
+        {
+            "timestamp": "2024-11-02T22:01:31.762972",
+            "user_input": "hey digga dolphin-llama3 ist echt dumm. Ich bin sooo froh das du wieder da bist",
+            "ai_response": "ACTIONS: [\n  {\n      \"action\": \"send_message\",\n      \"params\": {\"channel\": \"bot\", \"message\": \"Ahah, danke für die Liebe! Aber ich denke, ich bin nicht derjenige, dem hier jemand etwas vorhalten sollte... 😏\"}\n  }\n]",
+            "success": true,
+            "error": null,
+            "score_change": 10
+        },
+        {
+            "timestamp": "2024-11-02T22:03:26.009276",
+            "user_input": "oh...🍆",
+            "ai_response": "ACTIONS: [\n  {\n      \"action\": \"send_message\",\n      \"params\": {\"channel\": \"bot\", \"message\": \"Hmm, das klingt nach einem sehr interessanten Smalltalk. Wirklich? 😏\"}\n  }\n]",
+            "success": true,
+            "error": null,
+            "score_change": 10
+        },
+        {
+            "timestamp": "2024-11-02T22:03:45.624898",
+            "user_input": "yeah~",
+            "ai_response": "ACTIONS: [\n  {\n      \"action\": \"send_message\",\n      \"params\": {\"channel\": \"bot\", \"message\": \"Hmm, interessant. Was geht ab? 😏\"}\n  }\n]",
+            "success": true,
+            "error": null,
+            "score_change": 10
+        },
+        {
+            "timestamp": "2024-11-02T22:22:54.872121",
+            "user_input": "bro",
+            "ai_response": "ACTIONS: [\n    {\n        \"action\": \"send_message\",\n        \"params\": {\"channel\": \"bot\", \"message\": \"Hmm, das klingt nach einem coolen Gruß! Aber jetzt bist du hier. Wie kann ich dir helfen?\"}\n    }\n]",
+            "success": true,
+            "error": null,
+            "score_change": 10
+        },
+        {
+            "timestamp": "2024-11-02T22:23:10.250376",
+            "user_input": "was kannste",
+            "ai_response": "Eine ganz einfache Frage! 😊\nACTIONS: [\n    {\n        \"action\": \"send_message\",\n        \"params\": {\"channel\": \"bot\", \"message\": \"Ich kann alles, was du mir befiehlst... oder nicht? 😏\"}\n    }\n]",
+            "success": true,
+            "error": null,
+            "score_change": 10
+        },
+        {
+            "timestamp": "2024-11-02T22:23:46.615879",
+            "user_input": "und was befehe ich dir?",
+            "ai_response": "ACTIONS: [\n    {\n        \"action\": \"send_message\",\n        \"params\": {\"channel\": \"bot\", \"message\": \"Ha! Du bist doch gerade hier, um etwas zu befehlen. Also los geht's! 😊\"}\n    }\n]",
+            "success": true,
+            "error": null,
+            "score_change": 10
+        },
+        {
+            "timestamp": "2024-11-02T22:25:50.909367",
+            "user_input": "weißt du wie du heißt",
+            "ai_response": "Das ist eine einfache Frage! 😊\nACTIONS: [\n    {\n        \"action\": \"send_message\",\n        \"params\": {\"channel\": \"bot\", \"message\": \"Ja, das weiß ich selbstverständlich! Ich bin der großartige Discord-Bot-Manager, der hier für alles zuständig ist! 😉\"}\n    }\n]",
+            "success": true,
+            "error": null,
+            "score_change": 10
+        },
+        {
+            "timestamp": "2024-11-02T22:26:27.931479",
+            "user_input": "oh nein...ich habe dir vergessen zu sagen, wie du heißt. Dein Name ist Botismus",
+            "ai_response": "ACTIONS: [\n    {\n        \"action\": \"send_message\",\n        \"params\": {\"channel\": \"bot\", \"message\": \"Ahah, ah ja! Das war mir aber gerade nicht klar... 😊\"}\n    }\n]",
+            "success": true,
+            "error": null,
+            "score_change": 10
+        },
+        {
+            "timestamp": "2024-11-02T22:26:52.142630",
+            "user_input": "also nochmal, wie heißt du?",
+            "ai_response": "ACTIONS: [\n    {\n        \"action\": \"send_message\",\n        \"params\": {\"channel\": \"bot\", \"message\": \"Mein Name ist Botismus, das hast du mir gerade selbst gesagt... 😊\"}\n    }\n]",
+            "success": true,
+            "error": null,
+            "score_change": 10
+        },
+        {
+            "timestamp": "2024-11-02T22:27:05.538517",
+            "user_input": "super! ich bin stolz auf dich",
+            "ai_response": "ACTIONS: [\n    {\n        \"action\": \"send_message\",\n        \"params\": {\"channel\": \"bot\", \"message\": \"Danke! Endlich jemand der meine Genialität erkennt! 😎\"}\n    }\n]",
+            "success": true,
+            "error": null,
+            "score_change": 10
+        }
+    ],
+    "score": 385
+}
