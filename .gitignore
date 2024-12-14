@@ -4,9 +4,6 @@ __pycache__/
 *$py.class
 venv/
 
-# Environment
-.env
-
 # Logs
 *.log
 
@@ -17,3 +14,5 @@ venv/
 # Bot specific
 ai_memory.json
 commands.json
+
+.gitignore
