@@ -138,33 +138,35 @@ ACTIONS: [
     logging.info(f"System Prompt:\n{system_prompt}")
     
     try:
-        logging.info("Sende Anfrage an Ollama...")
-        response = ollama.chat(model=os.getenv('OLLAMA_MODEL'), messages=[
-            {
-                'role': 'system',
-                'content': system_prompt
-            },
-            {
-                'role': 'user',
-                'content': prompt
-            }
-        ])
+        logging.info("Sending request to Ollama...")
+        response = ollama.chat(
+            model="llama3.1",  # Explicitly specify the model
+            messages=[
+                {
+                    'role': 'system',
+                    'content': system_prompt
+                },
+                {
+                    'role': 'user',
+                    'content': prompt
+                }
+            ]
+        )
         
         ai_response = response['message']['content']
-        logging.info(f"KI-Antwort erhalten:\n{ai_response}")
+        logging.info(f"AI response received:\n{ai_response}")
         
-        # Überprüfe ob die Antwort leer ist
         if not ai_response.strip():
             return """ACTIONS: [
-                {{
+                {
                     "action": "send_message",
-                    "params": {{"channel": "bot", "message": "Ich verstehe deine Anfrage. Wie kann ich dir mit der Verwaltung des Servers helfen?"}}
-                }}
+                    "params": {"channel": "bot", "message": "I understand your request. How can I help you manage the server?"}
+                }
             ]"""
         
         return ai_response
     except Exception as e:
-        logging.error(f"Fehler bei der KI-Anfrage: {str(e)}")
+        logging.error(f"Error in AI request: {str(e)}")
         raise
 
 class ServerManager:

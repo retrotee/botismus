@@ -1,63 +1,48 @@
 import discord
 from datetime import datetime
-from typing import Optional, List, Dict
+from typing import Dict, List, Optional
 
 class UserTracker:
     def __init__(self):
-        self.users: Dict[int, Dict] = {}  # user_id -> user_data
-        
+        self.users: Dict = {}
+        self.message_history: Dict = {}
+
     def update_user(self, member: discord.Member):
-        """Aktualisiert oder erstellt User-Informationen"""
-        user_data = {
-            'id': member.id,
+        """Update or add user information"""
+        self.users[str(member.id)] = {
+            'username': member.name,
             'display_name': member.display_name,
-            'username': str(member),
             'discord_joined': member.created_at.isoformat(),
             'server_joined': member.joined_at.isoformat() if member.joined_at else None,
-            'roles': [role.name for role in member.roles if role.name != "@everyone"],
+            'roles': [role.name for role in member.roles],
             'last_online': datetime.now().isoformat(),
-            'is_bot': member.bot,
-            'avatar_url': str(member.avatar.url) if member.avatar else None,
-            'status': str(member.status),
-            'activities': [str(activity) for activity in member.activities],
-            'messages': []
+            'is_bot': member.bot
         }
-        
-        # Behalte existierende Nachrichten wenn der User bereits existiert
-        if member.id in self.users:
-            user_data['messages'] = self.users[member.id].get('messages', [])
-            
-        self.users[member.id] = user_data
-        
+
     def add_message(self, message: discord.Message):
-        """Fügt eine neue Nachricht zum User-Tracking hinzu"""
-        if message.author.id not in self.users:
-            self.update_user(message.author)
-            
-        msg_data = {
+        """Track a new message from a user"""
+        user_id = str(message.author.id)
+        if user_id not in self.message_history:
+            self.message_history[user_id] = []
+
+        self.message_history[user_id].append({
             'content': message.content,
-            'channel': message.channel.name,
             'timestamp': message.created_at.isoformat(),
-            'attachments': [a.url for a in message.attachments],
-            'edited': message.edited_at.isoformat() if message.edited_at else None
-        }
-        
-        self.users[message.author.id]['messages'].append(msg_data)
-        self.users[message.author.id]['last_online'] = datetime.now().isoformat()
-        
-    def get_user_info(self, user_id: int) -> Optional[Dict]:
-        """Gibt detaillierte Informationen über einen User zurück"""
-        return self.users.get(user_id)
-        
+            'channel': message.channel.name
+        })
+
+        # Keep only last 100 messages per user
+        if len(self.message_history[user_id]) > 100:
+            self.message_history[user_id].pop(0)
+
+    def get_user_by_name(self, username: str) -> Optional[Dict]:
+        """Get user data by username"""
+        for user_id, user_data in self.users.items():
+            if user_data['username'].lower() == username.lower():
+                user_data['messages'] = self.message_history.get(user_id, [])
+                return user_data
+        return None
+
     def get_all_users(self) -> List[Dict]:
-        """Gibt eine Liste aller User zurück"""
+        """Get list of all tracked users"""
         return list(self.users.values())
-        
-    def get_user_by_name(self, name: str) -> Optional[Dict]:
-        """Sucht einen User nach Namen (display_name oder username)"""
-        name = name.lower()
-        for user in self.users.values():
-            if (name in user['display_name'].lower() or 
-                name in user['username'].lower()):
-                return user
-        return None 

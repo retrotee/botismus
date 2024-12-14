@@ -3,6 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 venv/
+
+# Environment
 .env
 
 # Logs
@@ -10,4 +12,8 @@ venv/
 
 # IDE
 .vscode/
-.idea/ 
+.idea/
+
+# Bot specific
+ai_memory.json
+commands.json
